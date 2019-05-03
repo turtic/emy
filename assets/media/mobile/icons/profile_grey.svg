@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon/profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="65.1858727%" cy="-31.662334%" fx="65.1858727%" fy="-31.662334%" r="97.7213975%" gradientTransform="translate(0.651859,-0.316623),scale(1.000000,0.978261),rotate(102.224444),translate(-0.651859,0.316623)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#848484" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="93.9683447%" cy="-61.3227975%" fx="93.9683447%" fy="-61.3227975%" r="97.8645288%" gradientTransform="translate(0.939683,-0.613228),scale(1.000000,0.978261),rotate(108.755258),translate(-0.939683,0.613228)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#BABABA" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="93.9683447%" cy="-61.3227975%" fx="93.9683447%" fy="-61.3227975%" r="112.46284%" gradientTransform="translate(0.939683,-0.613228),scale(0.472768,1.000000),rotate(126.285817),translate(-0.939683,0.613228)" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#BABABA" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="icon/profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile1" transform="translate(2.000000, 1.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(3.913043, 0.000000)" fill="url(#radialGradient-2)">
+                <path d="M5.08695652,10.1257143 C2.42608696,10.1257143 0.268322981,7.91428571 0.268322981,5.2 C0.268322981,2.48571429 2.43167702,0.274285714 5.08695652,0.274285714 C7.74223602,0.274285714 9.90559006,2.48571429 9.90559006,5.2 C9.90559006,7.91428571 7.74782609,10.1257143 5.08695652,10.1257143 Z" id="Path"></path>
+            </g>
+            <g id="Group" transform="translate(0.000000, 11.200000)" fill="url(#radialGradient-3)">
+                <path d="M0.24695122,8.55705521 L0.24695122,7.40171779 C0.24695122,5.77668712 0.773780488,4.22723926 1.77256098,2.9207362 C2.71646341,1.68981595 4.0445122,0.750429448 5.52621951,0.280736196 C6.57987805,0.88 7.77621951,1.19852761 9,1.19852761 C10.2237805,1.19852761 11.420122,0.88 12.4737805,0.280736196 C13.9554878,0.750429448 15.2835366,1.68441718 16.227439,2.9207362 C17.2262195,4.22723926 17.7530488,5.77668712 17.7530488,7.40171779 L17.7530488,8.55705521 L0.24695122,8.55705521 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

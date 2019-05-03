@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>profile1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="65.1858727%" cy="-31.662334%" fx="65.1858727%" fy="-31.662334%" r="95.6932747%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#848484" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web/profile/purple" transform="translate(-2.000000, -1.000000)" fill="#5B4AE2" fill-rule="nonzero">
+            <g id="profile1" transform="translate(2.000000, 1.000000)">
+                <g id="Group" transform="translate(5.000000, 0.000000)">
+                    <path d="M6.5,12.6571429 C3.1,12.6571429 0.342857143,9.89285714 0.342857143,6.5 C0.342857143,3.10714286 3.10714286,0.342857143 6.5,0.342857143 C9.89285714,0.342857143 12.6571429,3.10714286 12.6571429,6.5 C12.6571429,9.89285714 9.9,12.6571429 6.5,12.6571429 Z" id="Path"></path>
+                </g>
+                <g id="Group" transform="translate(0.000000, 14.000000)">
+                    <path d="M0.31554878,10.696319 L0.31554878,9.25214724 C0.31554878,7.2208589 0.988719512,5.28404908 2.26493902,3.65092025 C3.47103659,2.11226994 5.1679878,0.93803681 7.06128049,0.350920245 C8.40762195,1.1 9.93628049,1.49815951 11.5,1.49815951 C13.0637195,1.49815951 14.592378,1.1 15.9387195,0.350920245 C17.8320122,0.93803681 19.5289634,2.10552147 20.735061,3.65092025 C22.0112805,5.28404908 22.6844512,7.2208589 22.6844512,9.25214724 L22.6844512,10.696319 L0.31554878,10.696319 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

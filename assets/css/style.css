@@ -1,0 +1,970 @@
+@import url(../fonts/fonts-all/fonts.css);
+@import url(../fonts/icon-fonts/icons.css);
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+p,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "proxima_nova", Arial, sans-serif;
+  color: #2F2F41; }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+h1 {
+  font-weight: bold; }
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem; }
+
+h4 {
+  font-family: "djb_chalk_it_up";
+  font-size: 2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold; }
+
+h5 {
+  font-weight: bold; }
+
+a {
+  color: #ffffff;
+  transition: 0.3s ease-in-out; }
+  a:hover {
+    text-decoration: none;
+    color: #2F2F41; }
+
+.slider-section {
+  background-color: #5B4AE2;
+  overflow: hidden; }
+  .slider-section .index-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+  .slider-section .reserve-index-btn {
+    height: 2.5rem;
+    width: 9.5rem;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    padding: 0.4rem 2.2rem;
+    border-radius: 3.4rem;
+    background-color: #2F2F41;
+    transition: 0.3s ease-in-out; }
+    .slider-section .reserve-index-btn:hover {
+      color: #2F2F41;
+      background-color: #ffffff;
+      transform: scale(1.1);
+      -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+  .slider-section .screens .screen-2 {
+    padding-top: 9.4rem;
+    padding-bottom: 12.6rem; }
+    .slider-section .screens .screen-2 .small-img img {
+      transform: scale(1.5) translateY(7rem) translateX(-20%); }
+
+.twitter-payments {
+  padding-top: 3.4rem;
+  padding-bottom: 8.1rem; }
+  .twitter-payments h2 {
+    width: 27.8rem;
+    padding-bottom: 1.8rem; }
+  .twitter-payments img {
+    width: 100%;
+    height: auto; }
+  .twitter-payments p {
+    width: 16.8rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8rem; }
+
+.icons-section {
+  margin-bottom: 8rem; }
+  .icons-section .icons-box {
+    display: flex;
+    flex-flow: row wrap; }
+    .icons-section .icons-box img {
+      width: 3.2rem;
+      height: auto;
+      margin-right: 16px; }
+    .icons-section .icons-box h3 {
+      display: flex;
+      align-items: center;
+      font-size: 1.6rem;
+      font-weight: bold; }
+    .icons-section .icons-box p {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      margin-top: 2rem;
+      margin-bottom: 3rem; }
+
+.online-payments {
+  margin-bottom: 12.3rem; }
+  .online-payments h2 {
+    width: 27.8rem;
+    margin-bottom: 1.8rem; }
+  .online-payments p {
+    width: 27.8rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 2.6rem; }
+  .online-payments h3 {
+    margin-bottom: 1.3rem;
+    font-weight: bold; }
+  .online-payments img:nth-of-type(1) {
+    margin-bottom: 3.1rem; }
+  .online-payments .emyapp-checkout {
+    width: 13.3rem; }
+
+.pay-coffee {
+  margin-bottom: 7.5rem; }
+  .pay-coffee h2 {
+    width: 27.8rem;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.18px; }
+  .pay-coffee p {
+    width: 27.8rem;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 2.6rem; }
+  .pay-coffee span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .pay-coffee img {
+    width: 100%;
+    height: auto; }
+
+.business-solution {
+  overflow: hidden;
+  margin-bottom: 7.8rem; }
+  .business-solution.container {
+    padding-right: 0;
+    padding-left: 0; }
+  .business-solution.col-12 {
+    padding-right: 0; }
+  .business-solution img {
+    width: 100%;
+    height: auto; }
+  .business-solution h4 {
+    text-align: center; }
+  .business-solution h2 {
+    max-width: 27.7rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: -0.18px;
+    line-height: 2.3rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2.4rem; }
+    .business-solution h2 span {
+      display: block; }
+
+footer {
+  background-color: #5B4AE2;
+  padding-top: 2rem;
+  padding-bottom: 1.7rem; }
+  footer h3 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 2.5rem; }
+  footer .store-icons {
+    margin-bottom: 5rem; }
+    footer .store-icons img {
+      width: 11rem;
+      transition: 0.3s ease-in-out; }
+      footer .store-icons img:hover {
+        transform: scale(1.1);
+        -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 9%; }
+  footer .social-icons {
+    margin-bottom: 2rem; }
+    footer .social-icons img {
+      height: 1.7rem;
+      transition: 0.3s ease-in-out; }
+      footer .social-icons img:hover {
+        transform: scale(1.3); }
+  footer .privacy-terms {
+    margin-bottom: 2.3rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem; }
+  footer p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.5rem; }
+
+.success-back-color {
+  background-color: #5B4AE2; }
+
+.white-stripes {
+  position: relative; }
+
+.signup-section h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.34px;
+  line-height: 3rem;
+  font-weight: 300; }
+.signup-section .left-signup {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  min-height: 100vh;
+  padding-top: 5rem; }
+  .signup-section .left-signup h1 {
+    font-size: 4.2rem;
+    line-height: 5rem;
+    margin-bottom: 3rem; }
+  .signup-section .left-signup h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.2rem; }
+.signup-section .right-signup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  justify-content: center; }
+  .signup-section .right-signup h2 {
+    margin-bottom: 4.9rem; }
+  .signup-section .right-signup a {
+    color: #6043EB; }
+  .signup-section .right-signup .signup-terms {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-top: 3rem;
+    margin-bottom: 5.5rem; }
+  .signup-section .right-signup button {
+    width: 100%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    border-radius: 30px;
+    background-color: #5B4AE2;
+    box-shadow: -1px 2px 5px 0 rgba(142, 142, 142, 0.5);
+    color: #F8F8F8;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.27px;
+    line-height: 2.4rem;
+    border: none; }
+    .signup-section .right-signup button:focus {
+      outline: 0; }
+  .signup-section .right-signup .input-box {
+    position: relative; }
+    .signup-section .right-signup .input-box input {
+      font-size: 1.8rem;
+      width: 100%;
+      margin-top: 3.3rem;
+      border-width: 0.1rem;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: #B9B9B9;
+      padding-left: 40px;
+      color: #2F2F41; }
+      .signup-section .right-signup .input-box input::placeholder {
+        color: #B9B9B9; }
+      .signup-section .right-signup .input-box input:focus {
+        border-color: #5B4AE2; }
+        .signup-section .right-signup .input-box input:focus + i {
+          color: #5B4AE2; }
+        .signup-section .right-signup .input-box input:focus:invalid {
+          border-color: #E14141; }
+          .signup-section .right-signup .input-box input:focus:invalid + i {
+            color: #E14141; }
+    .signup-section .right-signup .input-box i {
+      font-size: 2rem;
+      position: absolute;
+      color: #B9B9B9;
+      top: 3.5rem;
+      left: 0.4rem; }
+    .signup-section .right-signup .input-box .validation-alert {
+      align-self: start;
+      display: flex;
+      color: #E14141;
+      font-size: 1rem;
+      letter-spacing: -0.14px;
+      line-height: 1.2rem; }
+    .signup-section .right-signup .input-box .floating-label {
+      transform: translateY(-40px);
+      left: 40px;
+      position: absolute;
+      transition: all .3s;
+      color: #B9B9B9; }
+    .signup-section .right-signup .input-box input:placeholder-shown ~ label {
+      opacity: 1;
+      visibility: hidden;
+      transform: translateY(-20px); }
+.signup-section .signup-success {
+  color: #ffffff; }
+  .signup-section .signup-success .icon-checked {
+    font-size: 8.4rem; }
+  .signup-section .signup-success h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    line-height: 2.6rem;
+    margin-top: 4.3rem;
+    margin-bottom: 14rem; }
+    .signup-section .signup-success h2 span {
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 1rem; }
+  .signup-section .signup-success a {
+    display: block;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.6rem; }
+
+.background-color-dark {
+  background-color: #5B4AE2; }
+
+.full-screen {
+  min-height: 100vh; }
+
+.screens .box-active {
+  opacity: 1 !important; }
+  .screens .box-active h2 {
+    position: relative; }
+    .screens .box-active h2:before {
+      content: "";
+      position: absolute;
+      height: 0.4rem;
+      width: 3.3rem;
+      background-color: #ffffff;
+      bottom: 50%;
+      left: -10.5rem; }
+.screens h5 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  padding-top: 4rem; }
+.screens .screen-1 {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff; }
+  .screens .screen-1 h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    margin-top: 10.5rem; }
+  .screens .screen-1 h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 1.3rem; }
+  .screens .screen-1 p {
+    font-size: 1.6rem;
+    letter-spacing: -0.22px;
+    line-height: 2.2rem;
+    margin-top: 12rem; }
+    .screens .screen-1 p span {
+      font-weight: 500; }
+  .screens .screen-1 .yourhandle {
+    position: relative;
+    display: flex;
+    align-content: center;
+    height: 44px;
+    width: 90%;
+    /* fallback */
+    width: calc(100% - 5rem);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1.2rem;
+    margin-top: 6rem; }
+    .screens .screen-1 .yourhandle label {
+      font-size: 2.6rem;
+      font-weight: 500;
+      line-height: 4.3rem;
+      padding-left: 2rem;
+      position: relative; }
+      .screens .screen-1 .yourhandle label:after {
+        content: "";
+        position: absolute;
+        top: 20%;
+        right: -1rem;
+        height: 2.5rem;
+        width: 0.05rem;
+        background-color: #ffffff; }
+    .screens .screen-1 .yourhandle input {
+      margin-left: 2.5rem;
+      color: #ffffff;
+      background-color: transparent;
+      width: 55%;
+      border: none;
+      font-size: 2.4rem; }
+    .screens .screen-1 .yourhandle ::-webkit-input-placeholder {
+      color: #ffffff;
+      opacity: 0.1; }
+    .screens .screen-1 .yourhandle ::-moz-placeholder {
+      color: #ffffff;
+      opacity: 0.1; }
+    .screens .screen-1 .yourhandle :-ms-input-placeholder {
+      color: #ffffff;
+      opacity: 0.1; }
+    .screens .screen-1 .yourhandle :-moz-placeholder {
+      color: #ffffff;
+      opacity: 0.1; }
+  .screens .screen-1 #reserve-btn {
+    position: absolute;
+    right: -3rem;
+    top: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    width: 70px;
+    border-radius: 34px;
+    background-color: #2F2F41;
+    opacity: 1 !important;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    transition: 0.3s ease-in-out; }
+    .screens .screen-1 #reserve-btn:hover {
+      color: #2F2F41;
+      background-color: #ffffff; }
+    .screens .screen-1 #reserve-btn i {
+      font-size: 5px;
+      padding-left: 5px; }
+.screens .screen-2 {
+  color: #ffffff;
+  padding-top: 16rem;
+  align-content: center;
+  justify-content: center;
+  height: 100vh; }
+  .screens .screen-2 .text-box {
+    opacity: 0.2; }
+    .screens .screen-2 .text-box + .text-box {
+      margin-top: 3rem; }
+  .screens .screen-2 h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.4rem; }
+  .screens .screen-2 p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 2rem; }
+  .screens .screen-2 img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.5) translateY(7rem); }
+  .screens .screen-2 .img-divider {
+    padding-top: 4rem; }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h2 {
+    font-size: 3.6rem; }
+
+  .slider-section .screens .screen-2 .small-img img {
+    padding-top: 4rem; }
+
+  .twitter-payments {
+    padding-top: 5.4rem;
+    padding-bottom: 10.4rem; }
+    .twitter-payments h2 {
+      width: 24.1rem;
+      line-height: 3.6rem;
+      padding-bottom: 2.2rem; }
+    .twitter-payments p {
+      width: 24.1rem;
+      line-height: 1.9rem; }
+    .twitter-payments img {
+      position: absolute;
+      bottom: 2rem;
+      left: -11%; }
+
+  .online-payments {
+    margin-bottom: 12.3rem; }
+    .online-payments h2 {
+      line-height: 3.8rem;
+      margin-bottom: 1.5rem;
+      width: fit-content; }
+    .online-payments p {
+      line-height: 3.1rem;
+      width: fit-content; }
+    .online-payments h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem; }
+
+  .business-solution {
+    margin-bottom: 13.5rem; }
+    .business-solution.container {
+      padding-right: 15px;
+      padding-left: 15px; }
+    .business-solution.col-12 {
+      padding-right: 15px; }
+    .business-solution h2 span {
+      display: initial; }
+
+  footer {
+    padding-top: 4rem;
+    padding-bottom: 3rem; }
+    footer h3 {
+      font-size: 4.2rem;
+      line-height: 5rem;
+      margin-bottom: 2.7rem; }
+    footer .store-icons {
+      margin-bottom: 7rem; }
+      footer .store-icons img {
+        width: 12.5rem; }
+    footer .social-icons {
+      margin-bottom: 3rem; }
+      footer .social-icons img {
+        height: 1.9rem; }
+    footer .privacy-terms {
+      margin-bottom: 3rem;
+      font-size: 1.6rem;
+      line-height: 2rem; }
+    footer p {
+      font-size: 1.4rem;
+      line-height: 1.7rem; } }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h4 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+    text-align: left; }
+
+  .success-back-color {
+    background-color: #ffffff; }
+
+  .white-stripes {
+    background: linear-gradient(to left, #ffffff 60%, #5B4AE2 40%); }
+
+  .slider-section .reserve-index-btn {
+    height: 2.9rem;
+    width: 9.7rem;
+    font-weight: 500;
+    padding: 0.6rem 2.3rem;
+    border-radius: 3.4rem;
+    background-color: #2F2F41; }
+    .slider-section .reserve-index-btn:hover {
+      color: #2F2F41;
+      background-color: #ffffff; }
+  .slider-section .screens .screen-2 {
+    padding-top: 12.8rem;
+    padding-bottom: 40.2rem; }
+
+  .twitter-payments img {
+    bottom: -7rem; }
+
+  .icons-section {
+    margin-bottom: 14.7rem; }
+    .icons-section .icons-box {
+      flex-flow: column nowrap; }
+      .icons-section .icons-box img {
+        height: 50px;
+        margin-bottom: 2.5rem; }
+      .icons-section .icons-box h3 {
+        font-size: 2rem;
+        line-height: 2.4rem; }
+      .icons-section .icons-box p {
+        line-height: 1.9rem; }
+
+  .online-payments h2 {
+    width: 30.3rem; }
+  .online-payments p {
+    width: 30.3rem; }
+
+  .pay-coffee {
+    margin-bottom: 13rem; }
+    .pay-coffee p {
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      text-align: left; }
+    .pay-coffee h2 {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: -0.3px;
+      line-height: 3rem;
+      text-align: left; }
+    .pay-coffee span {
+      align-items: start; }
+
+  .business-solution h2 {
+    max-width: 50rem;
+    font-size: 3rem;
+    letter-spacing: -0.3px;
+    line-height: 3rem; }
+
+  .signup-section .right-signup h2 {
+    text-align: left; }
+  .signup-section .signup-success {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .signup-section .signup-success .icon-checked {
+      font-size: 9.6rem;
+      color: #5B4AE2; }
+    .signup-section .signup-success .icon-arrow {
+      color: #5B4AE2; }
+    .signup-section .signup-success h2 {
+      color: #5B4AE2;
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: -2.07px;
+      line-height: 3.6rem;
+      margin-top: 4.3rem;
+      margin-bottom: 8rem; }
+    .signup-section .signup-success a {
+      color: #2F2F41;
+      line-height: 2.4rem;
+      text-align: left; }
+      .signup-section .signup-success a:hover {
+        color: #5B4AE2;
+        cursor: pointer; }
+
+  .screens h5 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding-top: 5.2rem; }
+  .screens .screen-1 h2 {
+    position: relative;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    margin-top: 12.8rem; }
+    .screens .screen-1 h2:before {
+      content: "";
+      position: absolute;
+      height: 0.4rem;
+      width: 3.3rem;
+      background-color: #ffffff;
+      bottom: 50%;
+      left: -10.5rem; }
+  .screens .screen-1 h3 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-top: 1.5rem; }
+  .screens .screen-1 p {
+    font-size: 2rem;
+    line-height: 4.8rem;
+    margin-top: 7.9rem; }
+  .screens .screen-1 .yourhandle {
+    height: 8.9rem;
+    max-width: 58.3rem;
+    margin-top: 6rem;
+    border-radius: 1.2rem; }
+    .screens .screen-1 .yourhandle label {
+      font-size: 4.5rem;
+      font-weight: 500;
+      line-height: 8.9rem;
+      padding-left: 3rem; }
+      .screens .screen-1 .yourhandle label:after {
+        content: "";
+        position: absolute;
+        top: 25%;
+        right: -1.5rem;
+        height: 4.7rem;
+        width: 0.1rem; }
+    .screens .screen-1 .yourhandle input {
+      margin-left: 2.5rem;
+      width: 65%;
+      font-size: 5rem;
+      line-height: 6.1rem;
+      letter-spacing: -3.45px;
+      font-weight: 300; }
+  .screens .screen-1 #reserve-btn {
+    right: -5rem;
+    top: 14%;
+    height: 4.5rem;
+    width: 14.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    box-sizing: content-box;
+    border: 1rem solid #5B4AE2; }
+    .screens .screen-1 #reserve-btn i {
+      font-size: 1.1rem;
+      padding-left: 0.7rem; }
+  .screens .screen-2 {
+    padding-top: 0; }
+    .screens .screen-2 .text-box {
+      opacity: 0.2; }
+      .screens .screen-2 .text-box + .text-box {
+        margin-top: 4rem; }
+    .screens .screen-2 h2 {
+      max-width: 37.4rem;
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: 3.6rem; }
+    .screens .screen-2 p {
+      max-width: 35.6rem;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      margin-top: 2rem; }
+    .screens .screen-2 img {
+      transform: scale(2.5) translateY(9rem) translateX(-4.5rem); } }
+@media (min-width: 921px) {
+  .screens .screen-2 img {
+    transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem); } }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h2 {
+    font-size: 5.6rem; }
+
+  .screens .screen-2 img {
+    transform: scale(2) translateY(9rem); }
+
+  .twitter-payments {
+    padding-bottom: 27rem; }
+    .twitter-payments h2 {
+      width: 38rem;
+      line-height: 5.8rem; }
+    .twitter-payments p {
+      width: 38rem;
+      font-size: 1.5rem;
+      line-height: 2.2rem; }
+    .twitter-payments img {
+      bottom: -23rem;
+      left: -22%; }
+
+  .icons-section {
+    margin-bottom: 14.7rem; }
+    .icons-section .icons-box h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem; }
+    .icons-section .icons-box p {
+      font-size: 1.5rem;
+      line-height: 2.2rem; }
+
+  .online-payments {
+    margin-bottom: 8rem; }
+    .online-payments h2 {
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+      width: 43rem;
+      margin-bottom: 2rem; }
+    .online-payments p {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      width: 43rem; }
+    .online-payments h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem; }
+    .online-payments .emyapp-checkout {
+      width: 15.5rem; }
+
+  .business-solution {
+    margin-bottom: 19.5rem; }
+    .business-solution h2 {
+      max-width: 70rem;
+      font-size: 4rem;
+      letter-spacing: -0.4px;
+      line-height: 4rem; }
+
+  footer {
+    padding-top: 9.4rem;
+    padding-bottom: 2.6rem; }
+    footer h3 {
+      font-size: 5.2rem;
+      line-height: 6.2rem;
+      margin-bottom: 4.8rem; }
+    footer .store-icons {
+      margin-bottom: 10.9rem; }
+      footer .store-icons img {
+        width: 15.5rem; }
+    footer .social-icons {
+      margin-bottom: 4rem; }
+      footer .social-icons img {
+        height: 2.2rem; }
+    footer .privacy-terms {
+      margin-bottom: 4rem;
+      font-size: 2rem;
+      line-height: 2.4rem; }
+    footer p {
+      font-size: 1.8rem;
+      line-height: 2.2rem; } }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 3rem;
+    line-height: 4.18rem;
+    margin-bottom: 2.5rem; }
+
+  .twitter-payments {
+    padding-bottom: 36rem; }
+    .twitter-payments img {
+      bottom: -34rem; }
+
+  .pay-coffee h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: -0.35px;
+    line-height: 3.7rem; }
+  .pay-coffee p {
+    font-size: 1.8rem;
+    line-height: 2.2rem; } }
+/* Extra large devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+  .slider-section .index-nav h5 {
+    font-size: 2rem;
+    line-height: 2.4rem; }
+  .slider-section .reserve-index-btn {
+    height: 3.6rem;
+    width: 13.5rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    padding: 0.9rem 3.6rem; }
+  .slider-section .screens .screen-2 {
+    padding-top: 19.7rem;
+    padding-bottom: 31.9rem; }
+
+  .pay-coffee {
+    margin-bottom: 7rem; }
+    .pay-coffee img {
+      position: absolute;
+      width: 58.3vw;
+      left: -29%;
+      max-width: 86rem; }
+    .pay-coffee span {
+      height: 57rem;
+      align-items: center; }
+
+  .white-stripes {
+    background: linear-gradient(to left, #ffffff 51%, #5B4AE2 49%); }
+    .white-stripes .bot-mask {
+      background-color: #ffffff;
+      height: 20vh;
+      width: 50vw;
+      position: absolute;
+      bottom: 0;
+      z-index: -1; }
+
+  .signup-section .left-signup {
+    background-image: url("../media/desktop/images/mobile_signup.png");
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+    padding-top: 3.4rem;
+    min-height: 85rem; }
+    .signup-section .left-signup h1 {
+      font-size: 6.2rem;
+      line-height: 7.4rem;
+      margin-bottom: 1rem; }
+    .signup-section .left-signup h2 {
+      font-size: 3.3rem;
+      line-height: 4rem;
+      font-weight: 300; }
+    .signup-section .left-signup h5 {
+      font-size: 2rem;
+      line-height: 2.4rem;
+      margin-bottom: 10.6rem; }
+  .signup-section .signup-success .icon-checked {
+    font-size: 9rem; }
+  .signup-section .signup-success h2 {
+    font-size: 3.3rem;
+    letter-spacing: -2.28px;
+    line-height: 4rem;
+    margin-top: 2.3rem;
+    margin-bottom: 23.7rem; }
+  .signup-section .signup-success a {
+    font-size: 3.2;
+    line-height: 3.2rem; }
+
+  .screens h5 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding-top: 5.2rem; }
+  .screens .screen-1 h2 {
+    font-size: 3.5rem;
+    line-height: 6.8rem;
+    margin-top: 13.6rem; }
+    .screens .screen-1 h2:before {
+      height: 0.6rem;
+      width: 17.1rem;
+      left: -25rem; }
+  .screens .screen-1 h3 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-top: 1rem; }
+  .screens .screen-1 p {
+    font-size: 2.5rem;
+    letter-spacing: -0.34px;
+    margin-top: 14.6rem; }
+  .screens .screen-1 .yourhandle {
+    height: 13.3rem;
+    max-width: 88.3rem;
+    margin-top: 12.5rem; }
+    .screens .screen-1 .yourhandle label {
+      font-size: 6.8rem;
+      font-weight: 500;
+      line-height: 13.3rem;
+      padding-left: 4.8rem; }
+      .screens .screen-1 .yourhandle label:after {
+        content: "";
+        position: absolute;
+        top: 25%;
+        right: -2.6rem;
+        height: 7.4rem;
+        width: 0.1rem; }
+    .screens .screen-1 .yourhandle input {
+      margin-left: 5.5rem;
+      width: 65%;
+      font-size: 9rem;
+      line-height: 13.3rem;
+      letter-spacing: -6.21px;
+      font-weight: 300; }
+  .screens .screen-1 #reserve-btn {
+    right: -5rem;
+    top: 14%;
+    height: 5.9rem;
+    width: 19.4rem;
+    font-size: 2.2rem;
+    line-height: 5.9rem;
+    box-sizing: content-box;
+    border: 1.9rem solid #5B4AE2;
+    border-radius: 5.4rem; }
+    .screens .screen-1 #reserve-btn i {
+      font-size: 1.6rem;
+      padding-left: 1.4rem; }
+  .screens .screen-2 {
+    padding-top: 0; }
+    .screens .screen-2 .text-box + .text-box {
+      margin-top: 8rem; }
+    .screens .screen-2 .text-box h2:before {
+      height: 0.6rem;
+      width: 17.1rem;
+      left: -25rem; }
+    .screens .screen-2 p {
+      max-width: 38.2rem;
+      margin-top: 2.5rem; }
+    .screens .screen-2 img {
+      transform: scale(2) translateY(9rem); } }
+
+/*# sourceMappingURL=style.css.map */

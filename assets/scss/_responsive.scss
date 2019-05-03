@@ -1,0 +1,798 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  .slider-section {
+    .screens {
+      .screen-2 {
+        .small-img {
+          img {
+            padding-top: 4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .twitter-payments {
+    padding-top: 5.4rem;
+    padding-bottom: 10.4rem;
+
+    h2 {
+      width: 24.1rem;
+      line-height: 3.6rem;
+      padding-bottom: 2.2rem;
+    }
+
+    p {
+      width: 24.1rem;
+      line-height: 1.9rem;
+    }
+
+    img {
+      position: absolute;
+      bottom: 2rem;
+      left: -11%;
+      // transform: translateY(-90%);
+    }
+  }
+
+  .online-payments {
+    margin-bottom: 12.3rem;
+
+    h2 {
+      line-height: 3.8rem;
+      margin-bottom: 1.5rem;
+      width: fit-content;
+    }
+
+    p {
+      line-height: 3.1rem;
+      width: fit-content;
+    }
+
+    h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  .business-solution {
+    margin-bottom: 13.5rem;
+
+    &.container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    &.col-12 {
+      padding-right: 15px;
+    }
+
+    h2 {
+      span {
+        display: initial;
+      }
+    }
+  }
+
+  footer {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+
+    h3 {
+      font-size: 4.2rem;
+      line-height: 5rem;
+      margin-bottom: 2.7rem;
+    }
+
+    .store-icons {
+      margin-bottom: 7rem;
+
+      img {
+        width: 12.5rem;
+      }
+    }
+
+    .social-icons {
+      margin-bottom: 3rem;
+
+      img {
+        height: 1.9rem;
+      }
+    }
+
+    .privacy-terms {
+      margin-bottom: 3rem;
+      font-size: 1.6rem;
+      line-height: 2rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+    }
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h4 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+    text-align: left;
+  }
+
+  .success-back-color {
+    background-color: $color-light;
+  }
+
+  .white-stripes {
+    background: linear-gradient(
+      to left,
+      $color-text-light 60%,
+      $color-back-dark 40%
+    );
+  }
+
+  .slider-section {
+    .reserve-index-btn {
+      height: 2.9rem;
+      width: 9.7rem;
+      font-weight: 500;
+      padding: 0.6rem 2.3rem;
+      border-radius: 3.4rem;
+      background-color: $color-text-dark;
+
+      &:hover {
+        color: $color-text-dark;
+        background-color: $color-text-light;
+      }
+    }
+
+    .screens {
+      .screen-2 {
+        padding-top: 12.8rem;
+        padding-bottom: 40.2rem;
+      }
+    }
+  }
+
+  .twitter-payments {
+    img {
+      bottom: -7rem;
+      // transform: translateY(-73%);
+    }
+  }
+
+  .icons-section {
+    margin-bottom: 14.7rem;
+
+    .icons-box {
+      flex-flow: column nowrap;
+
+      img {
+        height: 50px;
+
+        margin-bottom: 2.5rem;
+      }
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+      }
+
+      p {
+        line-height: 1.9rem;
+      }
+    }
+  }
+
+  .online-payments {
+    h2 {
+      width: 30.3rem;
+    }
+
+    p {
+      width: 30.3rem;
+    }
+  }
+
+  .pay-coffee {
+    margin-bottom: 13rem;
+
+    p {
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      text-align: left;
+    }
+
+    h2 {
+      // width: 241px;
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: -0.3px;
+      line-height: 3rem;
+      text-align: left;
+    }
+
+    span {
+      align-items: start;
+    }
+  }
+
+  .business-solution {
+    h2 {
+      max-width: 50rem;
+      font-size: 3rem;
+      letter-spacing: -0.3px;
+      line-height: 3rem;
+    }
+  }
+
+  .signup-section {
+    .right-signup {
+      h2 {
+        text-align: left;
+      }
+    }
+
+    .signup-success {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .icon-checked {
+        font-size: 9.6rem;
+        color: $color-back-dark;
+      }
+
+      .icon-arrow {
+        color: $color-back-dark;
+      }
+
+      h2 {
+        color: $color-back-dark;
+        font-size: 3rem;
+        font-weight: 300;
+        letter-spacing: -2.07px;
+        line-height: 3.6rem;
+        margin-top: 4.3rem;
+        margin-bottom: 8rem;
+      }
+
+      a {
+        color: $color-text-dark;
+        line-height: 2.4rem;
+        text-align: left;
+        &:hover {
+          color: $color-back-dark;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .screens {
+    h5 {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      padding-top: 5.2rem;
+    }
+
+    .screen-1 {
+      h2 {
+        position: relative;
+        font-size: 3rem;
+        line-height: 3.6rem;
+        margin-top: 12.8rem;
+
+        &:before {
+          content: "";
+          position: absolute;
+          height: 0.4rem;
+          width: 3.3rem;
+          background-color: $color-light;
+          bottom: 50%;
+          left: -10.5rem;
+        }
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        margin-top: 1.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+        line-height: 4.8rem;
+        margin-top: 7.9rem;
+      }
+
+      .yourhandle {
+        height: 8.9rem;
+        max-width: 58.3rem;
+        margin-top: 6rem;
+        border-radius: 1.2rem;
+
+        label {
+          font-size: 4.5rem;
+          font-weight: 500;
+          line-height: 8.9rem;
+          padding-left: 3rem;
+
+          &:after {
+            content: "";
+            position: absolute;
+            top: 25%;
+            right: -1.5rem;
+            height: 4.7rem;
+            width: 0.1rem;
+          }
+        }
+
+        input {
+          margin-left: 2.5rem;
+          width: 65%;
+          font-size: 5rem;
+          line-height: 6.1rem;
+          letter-spacing: -3.45px;
+          font-weight: 300;
+        }
+      }
+
+      #reserve-btn {
+        right: -5rem;
+        top: 14%;
+        height: 4.5rem;
+        width: 14.8rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 4.5rem;
+        box-sizing: content-box;
+        border: 1rem solid $color-back-dark;
+
+        i {
+          font-size: 1.1rem;
+          padding-left: 0.7rem;
+        }
+      }
+    }
+
+    .screen-2 {
+      // padding-top: 20.2rem;
+      padding-top: 0;
+      .text-box {
+        opacity: 0.2;
+
+        & + .text-box {
+          margin-top: 4rem;
+        }
+      }
+
+      h2 {
+        max-width: 37.4rem;
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 3.6rem;
+      }
+
+      p {
+        max-width: 35.6rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+      }
+
+      img {
+        // transform: scale(2) translateY(9rem);
+        transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+      }
+    }
+  }
+}
+
+// CUSTOM (desktops, 921px and up)
+@media (min-width: 921px) {
+  .screens {
+    .screen-2 {
+      img {
+        transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+      }
+    }
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h2 {
+    font-size: 5.6rem;
+  }
+
+  // .slider-section {
+  //   img {
+  //     transform: scale(2) translateY(9rem);
+  //     // transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+  //   }
+  // }
+
+  .screens {
+    .screen-2 {
+      img {
+        transform: scale(2) translateY(9rem);
+      }
+    }
+  }
+
+  .twitter-payments {
+    padding-bottom: 27rem;
+
+    h2 {
+      width: 38rem;
+      line-height: 5.8rem;
+    }
+
+    p {
+      width: 38rem;
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+    }
+
+    img {
+      bottom: -23rem;
+      left: -22%;
+      // transform: translateY(-71%);
+    }
+  }
+
+  .icons-section {
+    margin-bottom: 14.7rem;
+
+    .icons-box {
+      h3 {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+      }
+    }
+  }
+
+  .online-payments {
+    margin-bottom: 8rem;
+
+    h2 {
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+      width: 43rem;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      width: 43rem;
+    }
+
+    h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem;
+    }
+
+    .emyapp-checkout {
+      width: 15.5rem;
+    }
+  }
+
+  .business-solution {
+    margin-bottom: 19.5rem;
+
+    h2 {
+      max-width: 70rem;
+      font-size: 4rem;
+      letter-spacing: -0.4px;
+      line-height: 4rem;
+    }
+  }
+
+  footer {
+    padding-top: 9.4rem;
+    padding-bottom: 2.6rem;
+
+    h3 {
+      font-size: 5.2rem;
+      line-height: 6.2rem;
+      margin-bottom: 4.8rem;
+    }
+
+    .store-icons {
+      margin-bottom: 10.9rem;
+
+      img {
+        width: 15.5rem;
+      }
+    }
+
+    .social-icons {
+      margin-bottom: 4rem;
+
+      img {
+        height: 2.2rem;
+      }
+    }
+
+    .privacy-terms {
+      margin-bottom: 4rem;
+      font-size: 2rem;
+      line-height: 2.4rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 3rem;
+    line-height: 4.18rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .twitter-payments {
+    padding-bottom: 36rem;
+
+    img {
+      bottom: -34rem;
+
+      // transform: translateY(-57%);
+    }
+  }
+
+  .pay-coffee {
+    h2 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      letter-spacing: -0.35px;
+      line-height: 3.7rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+    }
+
+    // img {
+    //     position: absolute;
+    //     width: 58.3vw;
+    //     left: -5%;
+    //     max-width: 86rem;
+    // }
+  }
+}
+
+/* Extra large devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+  .slider-section {
+    .index-nav {
+      h5 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+      }
+    }
+    .reserve-index-btn {
+      height: 3.6rem;
+      width: 13.5rem;
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+      padding: 0.9rem 3.6rem;
+    }
+
+    .screens {
+      .screen-2 {
+        padding-top: 19.7rem;
+        padding-bottom: 31.9rem;
+      }
+    }
+  }
+
+  .pay-coffee {
+    margin-bottom: 7rem;
+
+    img {
+      position: absolute;
+      width: 58.3vw;
+      left: -29%;
+      max-width: 86rem;
+    }
+
+    span {
+      height: 57rem;
+      align-items: center;
+    }
+  }
+
+  .white-stripes {
+    background: linear-gradient(
+      to left,
+      $color-text-light 51%,
+      $color-back-dark 49%
+    );
+
+    .bot-mask {
+      background-color: $color-text-light;
+      height: 20vh;
+      width: 50vw;
+      position: absolute;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
+
+  .signup-section {
+    .left-signup {
+      background-image: url("../media/desktop/images/mobile_signup.png");
+      background-repeat: no-repeat;
+      background-position: 20% 100%;
+      padding-top: 3.4rem;
+      min-height: 85rem;
+
+      h1 {
+        font-size: 6.2rem;
+        line-height: 7.4rem;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: 3.3rem;
+        line-height: 4rem;
+        font-weight: 300;
+      }
+
+      h5 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-bottom: 10.6rem;
+      }
+    }
+
+    .signup-success {
+      .icon-checked {
+        font-size: 9rem;
+      }
+
+      h2 {
+        font-size: 3.3rem;
+        letter-spacing: -2.28px;
+        line-height: 4rem;
+        margin-top: 2.3rem;
+        margin-bottom: 23.7rem;
+      }
+
+      a {
+        font-size: 3.2;
+        line-height: 3.2rem;
+      }
+    }
+  }
+
+  .screens {
+    h5 {
+      font-size: 2rem;
+      line-height: 2.4rem;
+      padding-top: 5.2rem;
+    }
+
+    .screen-1 {
+      h2 {
+        font-size: 3.5rem;
+        line-height: 6.8rem;
+        margin-top: 13.6rem;
+
+        &:before {
+          height: 0.6rem;
+          width: 17.1rem;
+          left: -25rem;
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-top: 1rem;
+      }
+
+      p {
+        font-size: 2.5rem;
+        letter-spacing: -0.34px;
+        margin-top: 14.6rem;
+      }
+
+      .yourhandle {
+        height: 13.3rem;
+        max-width: 88.3rem;
+        margin-top: 12.5rem;
+
+        label {
+          font-size: 6.8rem;
+          font-weight: 500;
+          line-height: 13.3rem;
+          padding-left: 4.8rem;
+
+          &:after {
+            content: "";
+            position: absolute;
+            top: 25%;
+            right: -2.6rem;
+            height: 7.4rem;
+            width: 0.1rem;
+          }
+        }
+
+        input {
+          margin-left: 5.5rem;
+          width: 65%;
+          font-size: 9rem;
+          line-height: 13.3rem;
+          letter-spacing: -6.21px;
+          font-weight: 300;
+        }
+      }
+
+      #reserve-btn {
+        right: -5rem;
+        top: 14%;
+        height: 5.9rem;
+        width: 19.4rem;
+        font-size: 2.2rem;
+        line-height: 5.9rem;
+        box-sizing: content-box;
+        border: 1.9rem solid $color-back-dark;
+        border-radius: 5.4rem;
+
+        i {
+          font-size: 1.6rem;
+          padding-left: 1.4rem;
+        }
+      }
+    }
+
+    .screen-2 {
+      // padding-top: 26.6rem;
+      padding-top: 0;
+
+      .text-box {
+        & + .text-box {
+          margin-top: 8rem;
+        }
+
+        h2 {
+          &:before {
+            height: 0.6rem;
+            width: 17.1rem;
+            left: -25rem;
+          }
+        }
+      }
+
+      p {
+        max-width: 38.2rem;
+        margin-top: 2.5rem;
+      }
+
+      img {
+        transform: scale(2) translateY(9rem);
+        // transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+      }
+    }
+  }
+}

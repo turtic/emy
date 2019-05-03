@@ -1,0 +1,196 @@
+.success-back-color {
+    background-color: $color-back-dark;
+}
+
+.white-stripes {
+    position: relative;
+}
+
+.signup-section {
+
+    h2 {
+        font-size: 2.5rem;
+        letter-spacing: -0.34px;
+        line-height: 3rem;
+        font-weight: 300;
+
+    }
+
+    .left-signup {
+        display: flex;
+        flex-direction: column;
+        color: $color-text-light;
+        min-height: 100vh;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 4.2rem;
+            line-height: 5rem;
+            margin-bottom: 3rem;
+        }
+
+        h5 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            line-height: 2.2rem;
+        }
+    }
+
+    .right-signup {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        // padding-top: 9.5rem;
+        min-height: 100vh;
+        justify-content: center;
+        // padding-top: 25vh;
+
+        h2 {
+            margin-bottom: 4.9rem;
+        }
+
+        a {
+            color: $color-form-link;
+        }
+
+        .signup-terms {
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            margin-top: 3rem;
+            margin-bottom: 5.5rem;
+        }
+
+        button {
+            width: 100%;
+            padding-top: 1.3rem;
+            padding-bottom: 1.3rem;
+            border-radius: 30px;
+            background-color: #5B4AE2;
+            box-shadow: -1px 2px 5px 0 rgba(142, 142, 142, 0.5);
+            color: #F8F8F8;
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: -0.27px;
+            line-height: 2.4rem;
+            border: none;
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        .input-box {
+            position: relative;
+
+            input {
+                font-size: 1.8rem;
+                // height: 3.5rem;
+                width: 100%;
+                margin-top: 3.3rem;
+                border-width: 0.1rem;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-color: $color-form-icon;
+                padding-left: 40px;
+                color: $color-text-dark;
+
+                &::placeholder {
+                    color: $color-form-icon;
+                }
+
+                &:focus {
+                    border-color: $color-back-dark;
+
+                    &+i {
+                        color: $color-back-dark;
+                    }
+
+                    &:invalid {
+                        border-color: $color-alert;
+
+                        &+i {
+                            color: $color-alert;
+                        }
+                    }
+
+                }
+
+            }
+
+            i {
+                font-size: 2rem;
+                position: absolute;
+                color: $color-form-icon;
+                top: 3.5rem;
+                left: 0.4rem;
+            }
+
+            .validation-alert {
+                align-self: start;
+                display: flex;
+                color: $color-alert;
+                font-size: 1rem;
+                letter-spacing: -0.14px;
+                line-height: 1.2rem;
+
+            }
+
+            .floating-label {
+                transform: translateY(-40px);
+                // padding-left: 40px;
+                left: 40px;
+                // top: 17px;
+                position: absolute;
+                transition: all .3s;
+                color: $color-form-icon;
+            }
+
+            input:placeholder-shown~label {
+                opacity: 1;
+                visibility: hidden;
+                transform: translateY(-20px);
+            }
+
+
+        }
+    }
+
+    .signup-success {
+        // height: 100%;
+        color: $color-text-light;
+        // padding-top: 31%;
+
+
+        .icon-checked {
+
+            font-size: 8.4rem;
+        }
+
+
+        h2 {
+
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: -0.3px;
+            line-height: 2.6rem;
+            margin-top: 4.3rem;
+            margin-bottom: 14rem;
+
+
+            span {
+                display: inline-block;
+                font-weight: bold;
+                margin-top: 1rem;
+            }
+        }
+
+        a {
+            display: block;
+            color: $color-text-light;
+            font-size: 1.8rem;
+            font-weight: 300;
+            line-height: 2.6rem;
+        }
+    }
+}

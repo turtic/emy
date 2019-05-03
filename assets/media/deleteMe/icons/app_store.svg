@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="52px" viewBox="0 0 155 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop/Fiat/Landing-page_2" transform="translate(-550.000000, -4796.000000)">
+            <g id="Group-7" transform="translate(550.000000, 4796.000000)">
+                <rect id="Rectangle" stroke="#FFFFFF" x="0.5" y="0.5" width="154" height="51" rx="6"></rect>
+                <text id="Download-on-the" font-family="SFProText-Regular, SF Pro Text" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="46.6987179" y="20">Download on the</tspan>
+                </text>
+                <text id="App-Store" font-family="SFProText-Semibold, SF Pro Text" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="45.7051282" y="39">App Store</tspan>
+                </text>
+                <g id="icons8-mac_os" transform="translate(9.935897, 9.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M26.8269231,22.743019 C26.093682,24.3563019 25.7438339,25.0796622 24.799726,26.5025883 C23.4866015,28.4965884 21.6271397,30.9807593 19.3267746,30.9950364 C17.2851999,31.0140722 16.7580335,29.6720491 13.9832178,29.6958436 C11.2084021,29.7053609 10.6285187,31.0188309 8.58215188,30.9997951 C6.28657888,30.9807593 4.52775896,28.7392951 3.20984114,26.7548123 C-0.475535183,21.1820836 -0.863722718,14.6480453 1.41268058,11.1740129 C3.02293616,8.70887659 5.57250751,7.26215601 7.96872118,7.26215601 C10.4032743,7.26215601 11.936851,8.58990317 13.9544626,8.58990317 C15.909773,8.58990317 17.098295,7.25739736 19.9210356,7.25739736 C22.0488733,7.25739736 24.3061057,8.4090637 25.9163613,10.4030625 C20.6446912,13.2679506 21.502536,20.7442603 26.8269231,22.743019 Z M17.7788203,5.0302091 C18.8043991,3.7262576 19.5807729,1.87978527 19.3028115,0 C17.6254626,0.114214783 15.6701522,1.17546078 14.5247618,2.54603818 C13.4895975,3.79764093 12.6317527,5.6583904 12.9672232,7.45727384 C14.7931377,7.51438124 16.6813547,6.43409944 17.7788203,5.0302091 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
