@@ -465,7 +465,13 @@ footer {
   color: #ffffff;
   align-content: center;
   justify-content: center;
-  height: 100vh; }
+  height: 100vh;
+  animation: fade-in 1s ease-in; }
+@keyframes fade-in {
+  0% {
+    opacity: 0.2; }
+  100% {
+    opacity: 1; } }
   .screens .screen-2 .text-box {
     opacity: 0.2; }
     .screens .screen-2 .text-box + .text-box {
