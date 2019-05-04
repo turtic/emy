@@ -115,12 +115,8 @@ window.addEventListener('wheel', (event) => {
 
 //  ???????????
 $(document).on('touchmove', function () {
-    $(document).trigger('mousewheel');
+    $(document).trigger('wheel');
 });
-
-// #########################################################
-
-// get handle name to signup page
 
 
 console.log('hello');
