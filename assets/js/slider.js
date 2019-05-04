@@ -3,13 +3,19 @@ import {htmlPages, htmlSmallPages} from './pages.js'
 let slide = 0;
 let pages = [];
 
+function changeLink (oldHtml, newHTML) {
+    var oldPath = window.location.pathname 
+    var newPath = oldPath.replace(oldHtml, newHTML);
+    return newPath
+}
+
 function inputLogic () {
     if (document.getElementById('reserve-btn')) {
         document.getElementById("reserve-btn").addEventListener("click", function(){
             console.log('button pressed');
-            let nickName = document.getElementById('handleReserve').value
+            let nickName = document.getElementById('handleReserve').value;
             localStorage.setItem("userHandle", nickName);
-            window.location.pathname = '/signup.html'
+            window.location.pathname = changeLink('/index.html', '/signup.html');
           });
         
         var input = document.getElementById("handleReserve");
@@ -55,7 +61,7 @@ function render () {
             changeScreen(pages[3])
             break;
         case 4:
-            window.location.pathname = '/main.html'
+            window.location.pathname = changeLink('/index.html', '/main.html');
             break;
         default:
             changeScreen(pages[0])
