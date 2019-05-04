@@ -4,8 +4,14 @@ let slide = 0;
 let pages = [];
 
 function changeLink(oldHtml, newHTML) {
-  var oldPath = window.location.pathname;
-  var newPath = oldPath.replace(oldHtml, newHTML);
+  let oldPath = window.location.pathname;
+  let newPath;
+  if (oldPath.includes(oldHtml)) {
+    newPath = oldPath.replace(oldHtml, newHTML);
+  } else {
+    newPath = oldPath + newHTML;
+  }
+
   return newPath;
 }
 
@@ -17,7 +23,7 @@ function inputLogic() {
         console.log("button pressed");
         let nickName = document.getElementById("handleReserve").value;
         localStorage.setItem("userHandle", nickName);
-        window.location.pathname = changeLink("/index.html", "/signup.html");
+        window.location.pathname = changeLink("index.html", "signup.html");
       });
 
     var input = document.getElementById("handleReserve");
@@ -42,7 +48,7 @@ function screenWidthCheck(x) {
   render();
 }
 
-var x = window.matchMedia("(max-width: 768px)");
+var x = window.matchMedia("(max-width: 767px)");
 screenWidthCheck(x); // Call listener function at run time
 x.addListener(screenWidthCheck); // Attach listener function on state changes
 
@@ -62,7 +68,7 @@ function render() {
       changeScreen(pages[3]);
       break;
     case 4:
-      window.location.pathname = changeLink("/index.html", "/main.html");
+      window.location.pathname = changeLink("index.html", "main.html");
       break;
     default:
       changeScreen(pages[0]);

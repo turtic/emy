@@ -115,6 +115,14 @@
       line-height: 1.7rem;
     }
   }
+
+  .screens {
+    .screen-2 {
+      .img-divider-576 {
+        padding-top: 4rem;
+      }
+    }
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -297,7 +305,8 @@
           width: 3.3rem;
           background-color: $color-light;
           bottom: 50%;
-          left: -10.5rem;
+          left: -10rem;
+          // left: -5.5rem;
         }
       }
 
@@ -379,6 +388,11 @@
         font-size: 3rem;
         font-weight: 300;
         line-height: 3.6rem;
+
+        &:before {
+          // left: -10rem;
+          left: -5.5rem;
+        }
       }
 
       p {

@@ -164,7 +164,7 @@ let smallPage1= `
       <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
         Emmyapp Profile.</p>
     </div>
-    <div class="col-8 offset-2">
+    <div class="col-8 offset-2 img-divider-576 ">
     <img src="./assets/media/mobile/images/landingpage_4.png" alt="" srcset="">
     </div>
 
@@ -186,7 +186,7 @@ let smallPage2= `
       <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
         card, Bank transfer of even Bitcoin.</p>
     </div>
-    <div class="col-8 offset-2">
+    <div class="col-8 offset-2 img-divider-576">
     <img src="./assets/media/mobile/images/landingpage_5.png" alt="" srcset="">
     </div>
     <div class="text-box img-divider">
@@ -205,7 +205,7 @@ let smallPage3= `
       <h2>Get payed instantly</h2>
       <p>As soon as you have your Emyapp handle you can accept payments</p>
     </div>
-    <div class="col-8 offset-2">
+    <div class="col-8 offset-2 img-divider-576">
       <img src="./assets/media/mobile/images/landingpage_6.png" alt="" srcset="">
     </div>
   </div>
