@@ -33,7 +33,12 @@
   }
 
   .screen-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     color: $color-text-light;
 
@@ -64,7 +69,10 @@
 
     .yourhandle {
       position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -ms-flex-line-pack: center;
       align-content: center;
       height: 44px;
       width: 90%; /* fallback */
@@ -79,7 +87,6 @@
         line-height: 4.3rem;
         padding-left: 2rem;
         position: relative;
-        // border-right: 1px solid $color-light;
         &:after {
           content: "";
           position: absolute;
@@ -122,8 +129,14 @@
       position: absolute;
       right: -3rem;
       top: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       height: 22px;
       width: 70px;
@@ -135,6 +148,8 @@
       font-size: 1rem;
       font-weight: 500;
       line-height: 1.2rem;
+      -webkit-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
       transition: 0.3s ease-in-out;
 
       &:hover {
@@ -150,6 +165,15 @@
   }
 
   .screen-2 {
+    @-webkit-keyframes fade-in {
+      0% {
+        opacity: 0.2;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
     @keyframes fade-in {
       0% {
         opacity: 0.2;
@@ -161,10 +185,13 @@
     }
 
     color: $color-text-light;
-    // padding-top: 16rem;
+    -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: 100vh;
+    -webkit-animation: fade-in 1s ease-in;
     animation: fade-in 1s ease-in;
 
     .text-box {
@@ -176,14 +203,12 @@
     }
 
     h2 {
-      // max-width: 27.7rem;
       font-size: 2rem;
       font-weight: 300;
       line-height: 2.4rem;
     }
 
     p {
-      // max-width: 27.7rem;
       font-size: 1.4rem;
       line-height: 1.8rem;
       margin-top: 2rem;
@@ -192,7 +217,8 @@
     img {
       width: 100%;
       height: auto;
-      //   transform: scale(1.5) translateY(7rem) translateX(-20%);
+      -webkit-transform: scale(1.5) translateY(7rem);
+      -ms-transform: scale(1.5) translateY(7rem);
       transform: scale(1.5) translateY(7rem);
     }
 

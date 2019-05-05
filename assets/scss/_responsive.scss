@@ -35,7 +35,6 @@
       position: absolute;
       bottom: 2rem;
       left: -11%;
-      // transform: translateY(-90%);
     }
   }
 
@@ -45,11 +44,15 @@
     h2 {
       line-height: 3.8rem;
       margin-bottom: 1.5rem;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
       width: fit-content;
     }
 
     p {
       line-height: 3.1rem;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
       width: fit-content;
     }
 
@@ -139,6 +142,22 @@
   }
 
   .white-stripes {
+    background: -webkit-gradient(
+      linear,
+      right top, left top,
+      color-stop(60%, $color-text-light),
+      color-stop(40%, $color-back-dark)
+    );
+    background: -webkit-linear-gradient(
+      right,
+      $color-text-light 60%,
+      $color-back-dark 40%
+    );
+    background: -o-linear-gradient(
+      right,
+      $color-text-light 60%,
+      $color-back-dark 40%
+    );
     background: linear-gradient(
       to left,
       $color-text-light 60%,
@@ -172,7 +191,6 @@
   .twitter-payments {
     img {
       bottom: -7rem;
-      // transform: translateY(-73%);
     }
   }
 
@@ -180,7 +198,10 @@
     margin-bottom: 14.7rem;
 
     .icons-box {
-      flex-flow: column nowrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
 
       img {
         height: 50px;
@@ -219,7 +240,6 @@
     }
 
     h2 {
-      // width: 241px;
       font-size: 3rem;
       font-weight: bold;
       letter-spacing: -0.3px;
@@ -228,7 +248,9 @@
     }
 
     span {
-      align-items: start;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: start;
     }
   }
 
@@ -249,9 +271,16 @@
     }
 
     .signup-success {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
 
       .icon-checked {
         font-size: 9.6rem;
@@ -362,7 +391,8 @@
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 4.5rem;
-        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
         border: 1rem solid $color-back-dark;
 
         i {
@@ -373,7 +403,6 @@
     }
 
     .screen-2 {
-      // padding-top: 20.2rem;
       padding-top: 0;
       .text-box {
         opacity: 0.2;
@@ -390,7 +419,6 @@
         line-height: 3.6rem;
 
         &:before {
-          // left: -10rem;
           left: -5.5rem;
         }
       }
@@ -403,8 +431,9 @@
       }
 
       img {
-        // transform: scale(2) translateY(9rem);
-        transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+        -webkit-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+            -ms-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+                transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
       }
     }
   }
@@ -415,7 +444,9 @@
   .screens {
     .screen-2 {
       img {
-        transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+        -webkit-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+            -ms-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+                transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
       }
     }
   }
@@ -426,17 +457,13 @@
     font-size: 5.6rem;
   }
 
-  // .slider-section {
-  //   img {
-  //     transform: scale(2) translateY(9rem);
-  //     // transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
-  //   }
-  // }
 
   .screens {
     .screen-2 {
       img {
-        transform: scale(2) translateY(9rem);
+        -webkit-transform: scale(2) translateY(9rem);
+            -ms-transform: scale(2) translateY(9rem);
+                transform: scale(2) translateY(9rem);
       }
     }
   }
@@ -458,7 +485,6 @@
     img {
       bottom: -23rem;
       left: -22%;
-      // transform: translateY(-71%);
     }
   }
 
@@ -567,8 +593,6 @@
 
     img {
       bottom: -34rem;
-
-      // transform: translateY(-57%);
     }
   }
 
@@ -584,13 +608,6 @@
       font-size: 1.8rem;
       line-height: 2.2rem;
     }
-
-    // img {
-    //     position: absolute;
-    //     width: 58.3vw;
-    //     left: -5%;
-    //     max-width: 86rem;
-    // }
   }
 }
 
@@ -615,6 +632,7 @@
       .screen-2 {
         padding-top: 19.7rem;
         padding-bottom: 31.9rem;
+        height: auto; 
       }
     }
   }
@@ -631,11 +649,29 @@
 
     span {
       height: 57rem;
-      align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
     }
   }
 
   .white-stripes {
+    background: -webkit-gradient(
+      linear,
+      right top, left top,
+      color-stop(51%, $color-text-light),
+      color-stop(49%, $color-back-dark)
+    );
+    background: -webkit-linear-gradient(
+      right,
+      $color-text-light 51%,
+      $color-back-dark 49%
+    );
+    background: -o-linear-gradient(
+      right,
+      $color-text-light 51%,
+      $color-back-dark 49%
+    );
     background: linear-gradient(
       to left,
       $color-text-light 51%,
@@ -769,7 +805,8 @@
         width: 19.4rem;
         font-size: 2.2rem;
         line-height: 5.9rem;
-        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
         border: 1.9rem solid $color-back-dark;
         border-radius: 5.4rem;
 
@@ -781,7 +818,6 @@
     }
 
     .screen-2 {
-      // padding-top: 26.6rem;
       padding-top: 0;
 
       .text-box {
@@ -804,8 +840,9 @@
       }
 
       img {
-        transform: scale(2) translateY(9rem);
-        // transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+        -webkit-transform: scale(2) translateY(9rem);
+            -ms-transform: scale(2) translateY(9rem);
+                transform: scale(2) translateY(9rem);
       }
     }
   }
