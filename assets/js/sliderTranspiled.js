@@ -258,6 +258,8 @@ function changeLink(oldHtml, newHTML) {
   } else {
     newPath = oldPath + newHTML;
   }
+  console.log(newPath);
+  
   return newPath;
 }
 
