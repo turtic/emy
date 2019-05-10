@@ -1,23 +1,251 @@
 "use strict";
 
 var page0 =
-  '\n<body id="app" class="background-color-dark full-screen">\n<div class="container screens">\n  <h5>@EMY</h5>\n  <div class="row">\n    <div\n      class="col-12 offset-md-1 col-md-11 offset-xl-0 col-xl-12 screen-1"\n    >\n      <h2>Get Paid - Simple as that!</h2>\n      <h3>\n        Accept credit card, bank transfer or blockchain payment in seconds.\n        Instant confirmation. No hassle.\n      </h3>\n      <div class="yourhandle">\n        <button id="reserve-btn">Reserve<i class="icon-arrow"></i></button>\n        <label for="handle">@</label>\n        <input id="handleReserve" type="text" placeholder="yourhandle" />\n      </div>\n      <p>\n        <span>Emyapp is twitter for payments.</span> All you need is an\n        emyapp handle.\n      </p>\n    </div>\n  </div>\n</div>';
-var page1 =
-  '\n<div class="container screens">\n<div class="row screen-2 d-flex">\n  <div class="col-md-8 col-lg-7">\n    <div class="text-box box-active">\n      <h2>Create your Emyapp handle</h2>\n      <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique\n        Emmyapp Profile.</p>\n    </div>\n    <div class="text-box">\n      <h2>Share your Emyapp profile</h2>\n      <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit\n        card, Bank transfer of even Bitcoin.</p>\n    </div>\n    <div class="text-box">\n      <h2>Get payed instantly</h2>\n      <p>As soon as you have your Emyapp handle you can accept payments</p>\n    </div>\n  </div>\n  <div class="col-md-4 col-lg-5">\n    <picture>\n      <source\n        srcset="./assets/media/tablet/images/landingpage_4.png"\n        media="(max-width: 922px)"\n      />\n      <img\n        class="img-fluid"\n        src="./assets/media/desktop/images/landingpage_4.png"\n        alt="emy phone"\n      />\n    </picture>\n  </div>\n</div>\n</div>';
-var page2 =
-  '\n<div class="container screens">\n<div class="row screen-2 d-flex">\n  <div class="col-md-8 col-lg-7">\n    <div class="text-box">\n      <h2>Create your Emyapp handle</h2>\n      <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique\n        Emmyapp Profile.</p>\n    </div>\n    <div class="text-box box-active">\n      <h2>Share your Emyapp profile</h2>\n      <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit\n        card, Bank transfer of even Bitcoin.</p>\n    </div>\n    <div class="text-box">\n      <h2>Get payed instantly</h2>\n      <p>As soon as you have your Emyapp handle you can accept payments</p>\n    </div>\n  </div>\n  <div class="col-md-4 col-lg-5">\n    <picture>\n      <source\n        srcset="./assets/media/tablet/images/landingpage_5.png"\n        media="(max-width: 922px)"\n      />\n      <img\n        class="img-fluid"\n        src="./assets/media/desktop/images/landingpage_5.png"\n        alt="emy phone"\n      />\n    </picture>\n  </div>\n</div>\n</div>';
-var page3 =
-  '\n<div class="container screens">\n<div class="row screen-2 d-flex">\n  <div class="col-md-8 col-lg-7">\n    <div class="text-box ">\n      <h2>Create your Emyapp handle</h2>\n      <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique\n        Emmyapp Profile.</p>\n    </div>\n    <div class="text-box ">\n      <h2>Share your Emyapp profile</h2>\n      <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit\n        card, Bank transfer of even Bitcoin.</p>\n    </div>\n    <div class="text-box box-active">\n      <h2>Get payed instantly</h2>\n      <p>As soon as you have your Emyapp handle you can accept payments</p>\n    </div>\n  </div>\n  <div class="col-md-4 col-lg-5">\n  <picture>\n    <source\n      srcset="./assets/media/tablet/images/landingpage_6.png"\n      media="(max-width: 922px)"\n    />\n    <img\n      class="img-fluid"\n      src="./assets/media/desktop/images/landingpage_6.png"\n      alt="emy phone"\n    />\n    </picture>\n  </div>\n</div>\n</div>';
-var smallPage0 =
-  '\n<body id="app" class="background-color-dark full-screen">\n<div class="container screens">\n  <h5>@EMY</h5>\n  <div class="row">\n    <div\n      class="col-12 offset-md-1 col-md-11 offset-xl-0 col-xl-12 screen-1"\n    >\n      <h2>Get Paid - Simple as that!</h2>\n      <h3>\n        Accept credit card, bank transfer or blockchain payment in seconds.\n        Instant confirmation. No hassle.\n      </h3>\n      <div class="yourhandle">\n        <button id="reserve-btn">Reserve<i class="icon-arrow"></i></button>\n        <label for="handle">@</label>\n        <input id="handleReserve" type="text" placeholder="yourhandle" />\n      </div>\n      <p>\n        <span>Emyapp is twitter for payments.</span> All you need is an\n        emyapp handle.\n      </p>\n    </div>\n  </div>\n</div>';
-var smallPage1 =
-  '\n<div class="container screens">\n<div class="row screen-2 d-flex">\n  <div class="col-12">\n    <div class="text-box box-active">\n      <h2>Create your Emyapp handle</h2>\n      <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique\n        Emmyapp Profile.</p>\n    </div>\n    <div class="col-8 offset-2 img-divider-576 ">\n    <img src="./assets/media/mobile/images/landingpage_4.png" alt="" srcset="">\n    </div>\n\n    <div class="text-box img-divider">\n      <h2>Share your Emyapp profile</h2>\n      <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit\n        card, Bank transfer of even Bitcoin.</p>\n    </div>\n  </div>\n</div>\n</div>';
-var smallPage2 =
-  '\n<div class="container screens">\n<div class="row screen-2 d-flex">\n  <div class="col-12">\n    <div class="text-box box-active">\n      <h2>Share your Emyapp profile</h2>\n      <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit\n        card, Bank transfer of even Bitcoin.</p>\n    </div>\n    <div class="col-8 offset-2 img-divider-576">\n    <img src="./assets/media/mobile/images/landingpage_5.png" alt="" srcset="">\n    </div>\n    <div class="text-box img-divider">\n        <h2>Get payed instantly</h2>\n        <p>As soon as you have your Emyapp handle you can accept payments</p>\n    </div>\n  </div>\n</div>\n</div>';
-var smallPage3 =
-  '\n<div class="container screens">\n<div class="row screen-2 d-flex">\n  <div class="col-12">\n    <div class="text-box box-active">\n      <h2>Get payed instantly</h2>\n      <p>As soon as you have your Emyapp handle you can accept payments</p>\n    </div>\n    <div class="col-8 offset-2 img-divider-576">\n      <img src="./assets/media/mobile/images/landingpage_6.png" alt="" srcset="">\n    </div>\n  </div>\n</div>\n</div>';
-var htmlPages = [page0, page1, page2, page3];
-var htmlSmallPages = [smallPage0, smallPage1, smallPage2, smallPage3];
+  '\n<body id="app" class="background-color-dark full-screen">\n<div class="container screens">\n <div class="row">\n    <div\n      class="col-12 offset-md-1 col-md-11 offset-xl-0 col-xl-12 screen-1"\n    >\n      <h2>Get Paid - Simple as that!</h2>\n      <h3>\n        Accept credit card, bank transfer or blockchain payment in seconds.\n        Instant confirmation. No hassle.\n      </h3>\n      <div class="yourhandle">\n        <button id="reserve-btn">Reserve<i class="icon-arrow"></i></button>\n        <label for="handle">@</label>\n        <input id="handleReserve" type="text" placeholder="yourhandle" />\n      </div>\n      <p>\n        <span>Emyapp is twitter for payments.</span> All you need is an\n        emyapp handle.\n      </p>\n    </div>\n  </div>\n</div>';
+let page1 = `
+  <div class="container screens">
+  <div class="row screen-2 d-flex">
+    <div class="col-md-8 col-lg-7">
+      <div class="text-box box-active animate-me">
+        <h2>Create your Emyapp handle</h2>
+        <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
+          Emmyapp Profile.</p>
+      </div>
+      <div class="text-box">
+        <h2>Share your Emyapp profile</h2>
+        <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+      <div class="text-box">
+        <h2>Get payed instantly</h2>
+        <p>As soon as you have your Emyapp handle you can accept payments</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-5">
+      <picture>
+        <source
+          srcset="./assets/media/tablet/images/landingpage_3.png"
+          media="(max-width: 922px)"
+        />
+        <img
+          class="img-fluid animate-me-img"
+          src="./assets/media/desktop/images/landingpage_3.png"
+          alt="emy phone"
+        />
+      </picture>
+    </div>
+  </div>
+  </div>`;
+  
+  let page2 = `
+  <div class="container screens">
+  <div class="row screen-2 d-flex">
+    <div class="col-md-8 col-lg-7">
+      <div class="text-box box-active animate-me">
+        <h2>Create your Emyapp handle</h2>
+        <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
+          Emmyapp Profile.</p>
+      </div>
+      <div class="text-box">
+        <h2>Share your Emyapp profile</h2>
+        <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+      <div class="text-box">
+        <h2>Get payed instantly</h2>
+        <p>As soon as you have your Emyapp handle you can accept payments</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-5">
+      <picture>
+        <source
+          srcset="./assets/media/tablet/images/landingpage_4.png"
+          media="(max-width: 922px)"
+        />
+        <img
+          class="img-fluid animate-me-img"
+          src="./assets/media/desktop/images/landingpage_4.png"
+          alt="emy phone"
+        />
+      </picture>
+    </div>
+  </div>
+  </div>`;
+  
+let page3 = `
+  <div class="container screens">
+  <div class="row screen-2 d-flex">
+    <div class="col-md-8 col-lg-7">
+      <div class="text-box ">
+        <h2>Create your Emyapp handle</h2>
+        <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
+          Emmyapp Profile.</p>
+      </div>
+      <div class="text-box box-active animate-me">
+        <h2>Share your Emyapp profile</h2>
+        <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+      <div class="text-box ">
+        <h2>Get payed instantly</h2>
+        <p>As soon as you have your Emyapp handle you can accept payments</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-5">
+    <picture>
+      <source
+        srcset="./assets/media/tablet/images/landingpage_5.png"
+        media="(max-width: 922px)"
+      />
+      <img
+        class="img-fluid animate-me-img"
+        src="./assets/media/desktop/images/landingpage_5.png"
+        alt="emy phone"
+      />
+      </picture>
+    </div>
+  </div>
+  </div>`;
+  let page4 = `
+  <div class="container screens">
+  <div class="row screen-2 d-flex">
+    <div class="col-md-8 col-lg-7">
+      <div class="text-box ">
+        <h2>Create your Emyapp handle</h2>
+        <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
+          Emmyapp Profile.</p>
+      </div>
+      <div class="text-box ">
+        <h2>Share your Emyapp profile</h2>
+        <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+      <div class="text-box box-active animate-me">
+        <h2>Get payed instantly</h2>
+        <p>As soon as you have your Emyapp handle you can accept payments</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-5">
+    <picture>
+      <source
+        srcset="./assets/media/tablet/images/landingpage_6.png"
+        media="(max-width: 922px)"
+      />
+      <img
+        class="img-fluid animate-me-img"
+        src="./assets/media/desktop/images/landingpage_6.png"
+        alt="emy phone"
+      />
+      </picture>
+    </div>
+  </div>
+  </div>`;  
+
+  let smallPage0 = `
+  <div class="container screens">
+    <div class="row">
+      <div
+        class="col-12 offset-md-1 col-md-11 offset-xl-0 col-xl-12 screen-1"
+      >
+        <h2>Get Paid - Simple as that!</h2>
+        <h3>
+          Accept credit card, bank transfer or blockchain payment in seconds.
+          Instant confirmation. No hassle.
+        </h3>
+        <div class="yourhandle">
+          <button id="reserve-btn">Reserve<i class="icon-arrow"></i></button>
+          <label for="handle">@</label>
+          <input id="handleReserve" type="text" placeholder="yourhandle" />
+        </div>
+        <p>
+          <span>Emyapp is twitter for payments.</span> All you need is an
+          emyapp handle.
+        </p>
+      </div>
+    </div>
+  </div>`;
+  
+  let smallPage1= `
+  <div class="container screens">
+  <div class="row screen-2 d-flex fade-in-screen">
+    <div class="col-12">
+      <div class="text-box box-active">
+        <h2>Create your Emyapp handle</h2>
+        <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
+          Emmyapp Profile.</p>
+      </div>
+      <div class="col-8 offset-2 img-divider-576 ">
+      <img src="./assets/media/mobile/images/landingpage_3.png" alt="emy phone">
+      </div>
+  
+      <div class="text-box img-divider">
+        <h2>Share your Emyapp profile</h2>
+        <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+    </div>
+  </div>
+  </div>`;
+  
+  let smallPage2= `
+  <div class="container screens">
+  <div class="row screen-2 d-flex fade-in-screen">
+    <div class="col-12">
+      <div class="text-box box-active">
+      <h2>Create your Emyapp handle</h2>
+      <p>Every Emyapp handle is unique and is at the same time your own Profile for your payments - your unique
+        Emmyapp Profile.</p>
+      </div>
+      <div class="col-8 offset-2 img-divider-576">
+      <img src="./assets/media/mobile/images/landingpage_4.png" alt="" srcset="">
+      </div>
+      <div class="text-box img-divider">
+          <h2>Share your Emyapp profile</h2>
+          <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+    </div>
+  </div>
+  </div>`;
+  
+  let smallPage3= `
+  <div class="container screens">
+  <div class="row screen-2 d-flex fade-in-screen">
+    <div class="col-12">
+      <div class="text-box box-active">
+      <h2>Share your Emyapp profile</h2>
+          <p>Share your Emyapp Profile if you want to get paid. Everyone visiting your profile can pay you with credit
+          card, Bank transfer of even Bitcoin.</p>
+      </div>
+      <div class="col-8 offset-2 img-divider-576">
+        <img src="./assets/media/mobile/images/landingpage_5.png" alt="" srcset="">
+      </div>
+      <div class="col-12">
+      <div class="text-box">
+        <h2>Get payed instantly</h2>
+        <p>As soon as you have your Emyapp handle you can accept payments</p>
+      </div
+    </div>
+  </div>
+  </div>`
+  
+  let smallPage4= `
+  <div class="container screens">
+  <div class="row screen-2 d-flex fade-in-screen">
+    <div class="col-12">
+      <div class="text-box box-active">
+        <h2>Get payed instantly</h2>
+        <p>As soon as you have your Emyapp handle you can accept payments</p>
+      </div>
+      <div class="col-8 offset-2 img-divider-576">
+        <img src="./assets/media/mobile/images/landingpage_6.png" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+  </div>`
+
+var htmlPages = [page0, page1, page2, page3, page4];
+var htmlSmallPages = [smallPage0, smallPage1, smallPage2, smallPage3, smallPage4];
 var slide = 0;
 var pages = [];
 
@@ -25,7 +253,7 @@ function changeLink(oldHtml, newHTML) {
   var oldPath = window.location.pathname;
   var newPath;
 
-  if (oldPath.indexOf("string")) {
+  if (oldPath.indexOf(oldHtml)) {
     newPath = oldPath.replace(oldHtml, newHTML);
   } else {
     newPath = oldPath + newHTML;
@@ -72,11 +300,15 @@ function render() {
   switch (slide) {
     case 0:
       changeScreen(pages[0]);
+      document.querySelector(".reserve-index-btn").style.display = "none";
+      document.querySelector(".reserve-index-btn").style.opacity = 0;
       inputLogic();
       break;
 
     case 1:
       changeScreen(pages[1]);
+      document.querySelector(".reserve-index-btn").style.display = "flex";
+      $(".reserve-index-btn").fadeTo(400, 1);
       break;
 
     case 2:
@@ -88,6 +320,10 @@ function render() {
       break;
 
     case 4:
+    changeScreen(pages[4]);
+    break
+
+    case 5:
       window.location.pathname = changeLink("index.html", "main.html");
       break;
 
@@ -97,7 +333,12 @@ function render() {
 }
 
 function changeScreen(page) {
-  document.getElementById("app").innerHTML = page;
+  $(".fade-in-screen").fadeOut();
+  $(".animate-me-img").fadeOut();
+  $(".animate-me").fadeTo(400, 0.2);
+  setTimeout(function(){ $("#app").html(page); }, 400);
+ 
+  // document.getElementById("app").innerHTML = page;
 }
 // debounce
 function debounce(callback, wait) {
@@ -134,13 +375,13 @@ var handleScroll = debounce(
     }
     if (event.deltaY > 0) {
       //on scroll down
-      if (slide < 4) {
+      if (slide < 5) {
         slide = slide + 1;
         render();
       }
     }
   },
-  500,
+  800,
   true
 );
 window.addEventListener("wheel", function(event) {
@@ -184,7 +425,7 @@ function moveTouch(e) {
     // sliding vertically
     if (diffY > 0) {
       // swiped up
-      if (slide < 4) {
+      if (slide < 5) {
         slide = slide + 1;
         render();
       }

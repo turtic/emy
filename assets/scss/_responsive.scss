@@ -165,7 +165,7 @@
     );
   }
 
-  .slider-section {
+  .index-nav {
     .reserve-index-btn {
       height: 2.9rem;
       width: 9.7rem;
@@ -179,6 +179,10 @@
         background-color: $color-text-light;
       }
     }
+  }
+
+  .slider-section {
+    
 
     .screens {
       .screen-2 {
@@ -405,7 +409,7 @@
     .screen-2 {
       padding-top: 0;
       .text-box {
-        opacity: 0.2;
+        
 
         & + .text-box {
           margin-top: 4rem;
@@ -613,12 +617,11 @@
 
 /* Extra large devices (large desktops, 1440px and up) */
 @media (min-width: 1440px) {
-  .slider-section {
-    .index-nav {
-      h5 {
-        font-size: 2rem;
-        line-height: 2.4rem;
-      }
+
+  .index-nav {
+    h5 {
+      font-size: 2rem;
+      line-height: 2.4rem;
     }
     .reserve-index-btn {
       height: 3.6rem;
@@ -627,7 +630,9 @@
       line-height: 1.9rem;
       padding: 0.9rem 3.6rem;
     }
-
+  }
+  .slider-section {
+    
     .screens {
       .screen-2 {
         padding-top: 19.7rem;

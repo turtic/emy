@@ -1,17 +1,20 @@
-.slider-section {
-  background-color: $color-back-dark;
-  overflow: hidden;
+.index-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 
-  .index-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
+  h5 {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    padding-top: 4rem;
   }
 
   .reserve-index-btn {
@@ -29,7 +32,7 @@
     -webkit-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-
+  
     &:hover {
       color: $color-text-dark;
       background-color: $color-text-light;
@@ -40,6 +43,13 @@
       box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     }
   }
+}
+
+.slider-section {
+  background-color: $color-back-dark;
+  overflow: hidden;
+
+  
 
   .screens {
     .screen-2 {
