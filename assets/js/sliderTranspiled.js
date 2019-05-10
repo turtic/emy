@@ -1,7 +1,5 @@
-"use strict";
-
 var page0 =
-  '\n<body id="app" class="background-color-dark full-screen">\n<div class="container screens">\n <div class="row">\n    <div\n      class="col-12 offset-md-1 col-md-11 offset-xl-0 col-xl-12 screen-1"\n    >\n      <h2>Get Paid - Simple as that!</h2>\n      <h3>\n        Accept credit card, bank transfer or blockchain payment in seconds.\n        Instant confirmation. No hassle.\n      </h3>\n      <div class="yourhandle">\n        <button id="reserve-btn">Reserve<i class="icon-arrow"></i></button>\n        <label for="handle">@</label>\n        <input id="handleReserve" type="text" placeholder="yourhandle" />\n      </div>\n      <p>\n        <span>Emyapp is twitter for payments.</span> All you need is an\n        emyapp handle.\n      </p>\n    </div>\n  </div>\n</div>';
+  '<div class="container screens">\n <div class="row">\n    <div\n      class="col-12 offset-md-1 col-md-11 offset-xl-0 col-xl-12 screen-1"\n    >\n      <h2>Get Paid - Simple as that!</h2>\n      <h3>\n        Accept credit card, bank transfer or blockchain payment in seconds.\n        Instant confirmation. No hassle.\n      </h3>\n      <div class="yourhandle">\n        <button id="reserve-btn">Reserve<i class="icon-arrow"></i></button>\n        <label for="handle">@</label>\n        <input id="handleReserve" type="text" placeholder="yourhandle" />\n      </div>\n      <p>\n        <span>Emyapp is twitter for payments.</span> All you need is an\n        emyapp handle.\n      </p>\n    </div>\n  </div>\n</div>';
 let page1 = `
   <div class="container screens">
   <div class="row screen-2 d-flex">
@@ -36,8 +34,8 @@ let page1 = `
     </div>
   </div>
   </div>`;
-  
-  let page2 = `
+
+let page2 = `
   <div class="container screens">
   <div class="row screen-2 d-flex">
     <div class="col-md-8 col-lg-7">
@@ -71,7 +69,7 @@ let page1 = `
     </div>
   </div>
   </div>`;
-  
+
 let page3 = `
   <div class="container screens">
   <div class="row screen-2 d-flex">
@@ -106,7 +104,7 @@ let page3 = `
     </div>
   </div>
   </div>`;
-  let page4 = `
+let page4 = `
   <div class="container screens">
   <div class="row screen-2 d-flex">
     <div class="col-md-8 col-lg-7">
@@ -139,9 +137,9 @@ let page3 = `
       </picture>
     </div>
   </div>
-  </div>`;  
+  </div>`;
 
-  let smallPage0 = `
+let smallPage0 = `
   <div class="container screens">
     <div class="row">
       <div
@@ -164,8 +162,8 @@ let page3 = `
       </div>
     </div>
   </div>`;
-  
-  let smallPage1= `
+
+let smallPage1 = `
   <div class="container screens">
   <div class="row screen-2 d-flex fade-in-screen">
     <div class="col-12">
@@ -186,8 +184,8 @@ let page3 = `
     </div>
   </div>
   </div>`;
-  
-  let smallPage2= `
+
+let smallPage2 = `
   <div class="container screens">
   <div class="row screen-2 d-flex fade-in-screen">
     <div class="col-12">
@@ -207,8 +205,8 @@ let page3 = `
     </div>
   </div>
   </div>`;
-  
-  let smallPage3= `
+
+let smallPage3 = `
   <div class="container screens">
   <div class="row screen-2 d-flex fade-in-screen">
     <div class="col-12">
@@ -227,9 +225,9 @@ let page3 = `
       </div
     </div>
   </div>
-  </div>`
-  
-  let smallPage4= `
+  </div>`;
+
+let smallPage4 = `
   <div class="container screens">
   <div class="row screen-2 d-flex fade-in-screen">
     <div class="col-12">
@@ -242,10 +240,16 @@ let page3 = `
       </div>
     </div>
   </div>
-  </div>`
+  </div>`;
 
 var htmlPages = [page0, page1, page2, page3, page4];
-var htmlSmallPages = [smallPage0, smallPage1, smallPage2, smallPage3, smallPage4];
+var htmlSmallPages = [
+  smallPage0,
+  smallPage1,
+  smallPage2,
+  smallPage3,
+  smallPage4
+];
 var slide = 0;
 var pages = [];
 
@@ -258,8 +262,7 @@ function changeLink(oldHtml, newHTML) {
   } else {
     newPath = oldPath + newHTML;
   }
-  console.log(newPath);
-  
+
   return newPath;
 }
 
@@ -279,6 +282,7 @@ function inputLogic() {
         document.getElementById("reserve-btn").click();
       }
     });
+  } else {
   }
 }
 
@@ -304,7 +308,9 @@ function render() {
       changeScreen(pages[0]);
       document.querySelector(".reserve-index-btn").style.display = "none";
       document.querySelector(".reserve-index-btn").style.opacity = 0;
-      inputLogic();
+      setTimeout(function() {
+        inputLogic();
+      }, 401);
       break;
 
     case 1:
@@ -322,8 +328,8 @@ function render() {
       break;
 
     case 4:
-    changeScreen(pages[4]);
-    break
+      changeScreen(pages[4]);
+      break;
 
     case 5:
       window.location.pathname = changeLink("index.html", "main.html");
@@ -338,8 +344,10 @@ function changeScreen(page) {
   $(".fade-in-screen").fadeOut();
   $(".animate-me-img").fadeOut();
   $(".animate-me").fadeTo(400, 0.2);
-  setTimeout(function(){ $("#app").html(page); }, 400);
- 
+  setTimeout(function() {
+    $("#app").html(page);
+  }, 400);
+
   // document.getElementById("app").innerHTML = page;
 }
 // debounce
