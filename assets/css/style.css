@@ -242,6 +242,8 @@ a {
       padding-bottom: 1.5rem; }
     .business-solution .accordion .accord-close {
       position: relative; }
+      .business-solution .accordion .accord-close:hover {
+        cursor: pointer; }
       .business-solution .accordion .accord-close h6 {
         position: absolute;
         top: 50%;
@@ -323,6 +325,8 @@ footer {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.2rem; }
+  .signup-section .left-signup img:nth-child(1) {
+    align-self: start; }
 .signup-section .right-signup {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -887,7 +891,7 @@ footer {
     margin-top: 14.6rem; }
   .screens .screen-1 .yourhandle {
     height: 13.3rem;
-    max-width: 88.3rem;
+    max-width: 100%;
     margin-top: 12.5rem; }
     .screens .screen-1 .yourhandle label {
       font-size: 6.8rem;
@@ -1106,9 +1110,7 @@ footer {
       font-size: 3.3rem;
       line-height: 4rem;
       font-weight: 300; }
-    .signup-section .left-signup h5 {
-      font-size: 2rem;
-      line-height: 2.4rem;
+    .signup-section .left-signup img:nth-child(1) {
       margin-bottom: 10.6rem; }
   .signup-section .signup-success .icon-checked {
     font-size: 9rem; }

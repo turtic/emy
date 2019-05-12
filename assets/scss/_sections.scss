@@ -302,6 +302,9 @@
 
     .accord-close {
       position: relative;
+      &:hover {
+        cursor: pointer;
+      }
       h6 {
         position: absolute;
         top: 50%;

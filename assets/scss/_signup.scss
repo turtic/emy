@@ -37,6 +37,10 @@
       font-weight: bold;
       line-height: 2.2rem;
     }
+
+    img:nth-child(1) {
+      align-self: start;
+    }
   }
 
   .right-signup {
