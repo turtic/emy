@@ -260,33 +260,44 @@
     color: $color-text-dark;
 
     h6 {
-      font-size: 3rem;
+      font-size: 1.6rem;
       font-weight: bold;
-      line-height: 3.7rem;
+      line-height: 2rem;
     }
 
     .accord-img-wrap {
       position: relative;
+      
+
       .accord-text {
         background-color: $color-light;
         position: absolute;
-        padding: 3.5rem 3rem 4rem 5.5rem;
+        padding: 1.2rem 2.1rem 1.3rem 2.1rem;
         top: 50%;
         transform: translateY(-50%);
 
         p:nth-child(2) {
-          width: 32rem;
-          font-size: 2.1rem;
-          letter-spacing: -0.29px;
-          line-height: 2.5rem;
-          margin-top: 2.5rem;
+          width: 18.2rem;
+          font-size: 1.4rem;
+          letter-spacing: -0.19px;
+          line-height: 1.7rem;
+          margin-top: 1.5rem;
         }
         p:nth-child(3) {
-          width: 34.3rem;
-          font-size: 1.5rem;
-          margin-top: 2.5rem;
+          display: none;
         }
       }
+
+    }
+
+    .accord-text-phone{
+      display: block;
+      font-size: 1.2rem;
+      width: 28.4rem;
+      padding-left: 2.2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+
     }
 
     .accord-close {

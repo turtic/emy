@@ -36,6 +36,30 @@ function setAccordHeight() {
   jQuery(".accordion").css("min-height", height);
 }
 
+// jQuery(document).ready(function() {
+//   // activate input button
+//   inputLogic();
+
+//   // accordion logic
+//   setAccordHeight();
+//   jQuery(window).bind("resize", function() {
+//     setAccordHeight();
+//   });
+//   jQuery(".accord-2").slideUp(1);
+//   jQuery(".accord-2").click(function(event) {
+//     jQuery(this).slideUp(500, function() {
+//       jQuery(".accord-1").slideDown(1000);
+//     });
+//     event.preventDefault();
+//   });
+//   jQuery(".accord-1").click(function(event) {
+//     jQuery(this).slideUp(500, function() {
+//       jQuery(".accord-2").slideDown(1000);
+//     });
+//     event.preventDefault();
+//   });
+// });
+
 jQuery(document).ready(function() {
   // activate input button
   inputLogic();
@@ -46,14 +70,14 @@ jQuery(document).ready(function() {
     setAccordHeight();
   });
   jQuery(".accord-2").slideUp(1);
-  jQuery(".accord-2").click(function(event) {
-    jQuery(this).slideUp(500, function() {
+  jQuery(".accord-close-2").click(function(event) {
+    jQuery(".accord-2").slideUp(500, function() {
       jQuery(".accord-1").slideDown(1000);
     });
     event.preventDefault();
   });
-  jQuery(".accord-1").click(function(event) {
-    jQuery(this).slideUp(500, function() {
+  jQuery(".accord-close-1").click(function(event) {
+    jQuery(".accord-1").slideUp(500, function() {
       jQuery(".accord-2").slideDown(1000);
     });
     event.preventDefault();
