@@ -63,15 +63,10 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline; }
-  .index-nav h5 {
-    color: #ffffff;
-    font-size: 1.7rem;
-    font-weight: 500;
-    line-height: 1.7rem;
-    padding-top: 4rem; }
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 4rem; }
   .index-nav .reserve-index-btn {
     height: 2.5rem;
     width: 9.5rem;
@@ -95,17 +90,6 @@ a {
       transform: scale(1.1);
       -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
       box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
-
-.slider-section {
-  background-color: #5B4AE2;
-  overflow: hidden; }
-  .slider-section .screens .screen-2 {
-    padding-top: 9.4rem;
-    padding-bottom: 12.6rem; }
-    .slider-section .screens .screen-2 .small-img img {
-      -webkit-transform: scale(1.5) translateY(7rem) translateX(-20%);
-      -ms-transform: scale(1.5) translateY(7rem) translateX(-20%);
-      transform: scale(1.5) translateY(7rem) translateX(-20%); }
 
 .twitter-payments {
   padding-top: 3.4rem;
@@ -227,11 +211,42 @@ a {
     margin-bottom: 2.4rem; }
     .business-solution h2 span {
       display: block; }
+  .business-solution .accordion {
+    color: #2F2F41; }
+    .business-solution .accordion h6 {
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 3.7rem; }
+    .business-solution .accordion .accord-img-wrap {
+      position: relative; }
+      .business-solution .accordion .accord-img-wrap .accord-text {
+        background-color: #ffffff;
+        position: absolute;
+        padding: 3.5rem 3rem 4rem 5.5rem;
+        top: 50%;
+        transform: translateY(-50%); }
+        .business-solution .accordion .accord-img-wrap .accord-text p:nth-child(2) {
+          width: 32rem;
+          font-size: 2.1rem;
+          letter-spacing: -0.29px;
+          line-height: 2.5rem;
+          margin-top: 2.5rem; }
+        .business-solution .accordion .accord-img-wrap .accord-text p:nth-child(3) {
+          width: 34.3rem;
+          font-size: 1.5rem;
+          margin-top: 2.5rem; }
+    .business-solution .accordion .accord-close {
+      position: relative; }
+      .business-solution .accordion .accord-close h6 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5.5rem; }
 
 footer {
   background-color: #5B4AE2;
-  padding-top: 2rem;
-  padding-bottom: 1.7rem; }
+  padding-top: 7.7rem;
+  padding-bottom: 2.3rem; }
   footer h3 {
     color: #ffffff;
     font-size: 2.5rem;
@@ -436,25 +451,6 @@ footer {
 .full-screen {
   min-height: 100vh; }
 
-@-webkit-keyframes fade-in-screen {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes fade-in-screen {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-.screens .fade-in-screen {
-  -webkit-animation: fade-in 0.4s linear;
-  animation: fade-in 0.4s linear; }
-.screens h5 {
-  color: #ffffff;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1.7rem;
-  padding-top: 4rem; }
 .screens .screen-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -463,7 +459,8 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-bottom: 10rem; }
   .screens .screen-1 h2 {
     font-size: 2.2rem;
     font-weight: 500;
@@ -566,30 +563,7 @@ footer {
   align-content: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  height: 100vh; }
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0.2; }
-  100% {
-    opacity: 1; } }
-@keyframes fade-in {
-  0% {
-    opacity: 0.2; }
-  100% {
-    opacity: 1; } }
-@keyframes fade-in-img {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-  .screens .screen-2 .animate-me {
-    -webkit-animation: fade-in 1s ease-in;
-    animation: fade-in 1s ease-in; }
-  .screens .screen-2 .text-box {
-    opacity: 0.2; }
-    .screens .screen-2 .text-box + .text-box {
-      margin-top: 3rem; }
+  justify-content: center; }
   .screens .screen-2 h2 {
     font-size: 2rem;
     font-weight: 300;
@@ -597,38 +571,16 @@ footer {
   .screens .screen-2 p {
     font-size: 1.4rem;
     line-height: 1.8rem;
-    margin-top: 2rem; }
+    margin-top: 3rem;
+    margin-bottom: 5rem; }
   .screens .screen-2 img {
     width: 100%;
-    height: auto;
-    -webkit-transform: scale(1.5) translateY(7rem);
-    -ms-transform: scale(1.5) translateY(7rem);
-    transform: scale(1.5) translateY(7rem); }
-  .screens .screen-2 .animate-me-img {
-    -webkit-animation: fade-in-img 2s ease-in;
-    animation: fade-in-img 2s ease-in; }
-  .screens .screen-2 .img-divider {
-    padding-top: 4rem; }
-  .screens .screen-2 .box-active {
-    opacity: 1; }
-    .screens .screen-2 .box-active h2 {
-      position: relative; }
-      .screens .screen-2 .box-active h2:before {
-        content: "";
-        position: absolute;
-        height: 0.4rem;
-        width: 3.3rem;
-        background-color: #ffffff;
-        bottom: 50%;
-        left: -10.5rem; }
+    height: auto; }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   h2 {
     font-size: 3.6rem; }
-
-  .slider-section .screens .screen-2 .small-img img {
-    padding-top: 4rem; }
 
   .twitter-payments {
     padding-top: 5.4rem;
@@ -673,8 +625,8 @@ footer {
       display: initial; }
 
   footer {
-    padding-top: 4rem;
-    padding-bottom: 3rem; }
+    padding-top: 13.2rem;
+    padding-bottom: 4rem; }
     footer h3 {
       font-size: 4.2rem;
       line-height: 5rem;
@@ -692,11 +644,8 @@ footer {
       font-size: 1.6rem;
       line-height: 2rem; }
     footer p {
-      font-size: 1.4rem;
-      line-height: 1.7rem; }
-
-  .screens .screen-2 .img-divider-576 {
-    padding-top: 4rem; } }
+      font-size: 1.8rem;
+      line-height: 2.2rem; } }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h4 {
@@ -724,10 +673,6 @@ footer {
     .index-nav .reserve-index-btn:hover {
       color: #2F2F41;
       background-color: #ffffff; }
-
-  .slider-section .screens .screen-2 {
-    padding-top: 12.8rem;
-    padding-bottom: 40.2rem; }
 
   .twitter-payments img {
     bottom: -7rem; }
@@ -814,266 +759,79 @@ footer {
     font-size: 1.8rem;
     line-height: 2.2rem;
     padding-top: 5.2rem; }
-  .screens .screen-1 h2 {
-    position: relative;
-    font-size: 3rem;
-    line-height: 3.6rem;
-    margin-top: 12.8rem; }
-    .screens .screen-1 h2:before {
-      content: "";
-      position: absolute;
-      height: 0.4rem;
-      width: 3.3rem;
-      background-color: #ffffff;
-      bottom: 50%;
-      left: -10rem; }
-  .screens .screen-1 h3 {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin-top: 1.5rem; }
-  .screens .screen-1 p {
-    font-size: 2rem;
-    line-height: 4.8rem;
-    margin-top: 7.9rem; }
-  .screens .screen-1 .yourhandle {
-    height: 8.9rem;
-    max-width: 58.3rem;
-    margin-top: 6rem;
-    border-radius: 1.2rem; }
-    .screens .screen-1 .yourhandle label {
-      font-size: 4.5rem;
+  .screens .screen-1 {
+    padding-bottom: 20rem; }
+    .screens .screen-1 h2 {
+      position: relative;
+      font-size: 3rem;
+      line-height: 3.6rem;
+      margin-top: 12.8rem; }
+    .screens .screen-1 h3 {
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      margin-top: 1.5rem; }
+    .screens .screen-1 p {
+      font-size: 2rem;
+      line-height: 4.8rem;
+      margin-top: 7.9rem; }
+    .screens .screen-1 .yourhandle {
+      height: 8.9rem;
+      max-width: 58.3rem;
+      margin-top: 6rem;
+      border-radius: 1.2rem; }
+      .screens .screen-1 .yourhandle label {
+        font-size: 4.5rem;
+        font-weight: 500;
+        line-height: 8.9rem;
+        padding-left: 3rem; }
+        .screens .screen-1 .yourhandle label:after {
+          content: "";
+          position: absolute;
+          top: 25%;
+          right: -1.5rem;
+          height: 4.7rem;
+          width: 0.1rem; }
+      .screens .screen-1 .yourhandle input {
+        margin-left: 2.5rem;
+        width: 65%;
+        font-size: 5rem;
+        line-height: 6.1rem;
+        letter-spacing: -3.45px;
+        font-weight: 300; }
+    .screens .screen-1 #reserve-btn {
+      right: -5rem;
+      top: 14%;
+      height: 4.5rem;
+      width: 14.8rem;
+      font-size: 1.6rem;
       font-weight: 500;
-      line-height: 8.9rem;
-      padding-left: 3rem; }
-      .screens .screen-1 .yourhandle label:after {
-        content: "";
-        position: absolute;
-        top: 25%;
-        right: -1.5rem;
-        height: 4.7rem;
-        width: 0.1rem; }
-    .screens .screen-1 .yourhandle input {
-      margin-left: 2.5rem;
-      width: 65%;
-      font-size: 5rem;
-      line-height: 6.1rem;
-      letter-spacing: -3.45px;
-      font-weight: 300; }
-  .screens .screen-1 #reserve-btn {
-    right: -5rem;
-    top: 14%;
-    height: 4.5rem;
-    width: 14.8rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 4.5rem;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    border: 1rem solid #5B4AE2; }
-    .screens .screen-1 #reserve-btn i {
-      font-size: 1.1rem;
-      padding-left: 0.7rem; }
+      line-height: 4.5rem;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+      border: 1rem solid #5B4AE2; }
+      .screens .screen-1 #reserve-btn i {
+        font-size: 1.1rem;
+        padding-left: 0.7rem; }
   .screens .screen-2 {
     padding-top: 0; }
-    .screens .screen-2 .text-box + .text-box {
-      margin-top: 4rem; }
     .screens .screen-2 h2 {
-      max-width: 37.4rem;
+      max-width: 33.2rem;
       font-size: 3rem;
       font-weight: 300;
       line-height: 3.6rem; }
       .screens .screen-2 h2:before {
         left: -5.5rem; }
     .screens .screen-2 p {
-      max-width: 35.6rem;
-      font-size: 1.6rem;
-      line-height: 2rem;
-      margin-top: 2rem; }
-    .screens .screen-2 img {
-      -webkit-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
-      -ms-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
-      transform: scale(2.5) translateY(9rem) translateX(-4.5rem); } }
-@media (min-width: 921px) {
-  .screens .screen-2 img {
-    -webkit-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
-    -ms-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
-    transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem); } }
+      max-width: 33.2rem;
+      margin-top: 4rem;
+      font-size: 2rem;
+      letter-spacing: 0.45px;
+      line-height: 2.5rem; } }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h2 {
     font-size: 5.6rem; }
 
-  .screens .screen-2 img {
-    -webkit-transform: scale(2) translateY(9rem);
-    -ms-transform: scale(2) translateY(9rem);
-    transform: scale(2) translateY(9rem); }
-
-  .twitter-payments {
-    padding-bottom: 27rem; }
-    .twitter-payments h2 {
-      width: 38rem;
-      line-height: 5.8rem; }
-    .twitter-payments p {
-      width: 38rem;
-      font-size: 1.5rem;
-      line-height: 2.2rem; }
-    .twitter-payments img {
-      bottom: -23rem;
-      left: -22%; }
-
-  .icons-section {
-    margin-bottom: 14.7rem; }
-    .icons-section .icons-box h3 {
-      font-size: 2.1rem;
-      line-height: 2.5rem; }
-    .icons-section .icons-box p {
-      font-size: 1.5rem;
-      line-height: 2.2rem; }
-
-  .online-payments {
-    margin-bottom: 8rem; }
-    .online-payments h2 {
-      font-size: 5.5rem;
-      line-height: 5.5rem;
-      width: 43rem;
-      margin-bottom: 2rem; }
-    .online-payments p {
-      font-size: 1.5rem;
-      line-height: 2.2rem;
-      width: 43rem; }
-    .online-payments h3 {
-      font-size: 2.1rem;
-      line-height: 2.5rem; }
-    .online-payments .emyapp-checkout {
-      width: 15.5rem; }
-
-  .business-solution {
-    margin-bottom: 19.5rem; }
-    .business-solution h2 {
-      max-width: 70rem;
-      font-size: 4rem;
-      letter-spacing: -0.4px;
-      line-height: 4rem; }
-
-  footer {
-    padding-top: 9.4rem;
-    padding-bottom: 2.6rem; }
-    footer h3 {
-      font-size: 5.2rem;
-      line-height: 6.2rem;
-      margin-bottom: 4.8rem; }
-    footer .store-icons {
-      margin-bottom: 10.9rem; }
-      footer .store-icons img {
-        width: 15.5rem; }
-    footer .social-icons {
-      margin-bottom: 4rem; }
-      footer .social-icons img {
-        height: 2.2rem; }
-    footer .privacy-terms {
-      margin-bottom: 4rem;
-      font-size: 2rem;
-      line-height: 2.4rem; }
-    footer p {
-      font-size: 1.8rem;
-      line-height: 2.2rem; } }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  h4 {
-    font-size: 3rem;
-    line-height: 4.18rem;
-    margin-bottom: 2.5rem; }
-
-  .twitter-payments {
-    padding-bottom: 36rem; }
-    .twitter-payments img {
-      bottom: -34rem; }
-
-  .pay-coffee h2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: -0.35px;
-    line-height: 3.7rem; }
-  .pay-coffee p {
-    font-size: 1.8rem;
-    line-height: 2.2rem; } }
-/* Extra large devices (large desktops, 1440px and up) */
-@media (min-width: 1440px) {
-  .index-nav h5 {
-    font-size: 2rem;
-    line-height: 2.4rem; }
-  .index-nav .reserve-index-btn {
-    height: 3.6rem;
-    width: 13.5rem;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    padding: 0.9rem 3.6rem; }
-
-  .slider-section .screens .screen-2 {
-    padding-top: 19.7rem;
-    padding-bottom: 31.9rem;
-    height: auto; }
-
-  .pay-coffee {
-    margin-bottom: 7rem; }
-    .pay-coffee img {
-      position: absolute;
-      width: 58.3vw;
-      left: -29%;
-      max-width: 86rem; }
-    .pay-coffee span {
-      height: 57rem;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-
-  .white-stripes {
-    background: -webkit-gradient(linear, right top, left top, color-stop(51%, #ffffff), color-stop(49%, #5B4AE2));
-    background: -webkit-linear-gradient(right, #ffffff 51%, #5B4AE2 49%);
-    background: -o-linear-gradient(right, #ffffff 51%, #5B4AE2 49%);
-    background: linear-gradient(to left, #ffffff 51%, #5B4AE2 49%); }
-    .white-stripes .bot-mask {
-      background-color: #ffffff;
-      height: 20vh;
-      width: 50vw;
-      position: absolute;
-      bottom: 0;
-      z-index: -1; }
-
-  .signup-section .left-signup {
-    background-image: url("../media/desktop/images/mobile_signup.png");
-    background-repeat: no-repeat;
-    background-position: 20% 100%;
-    padding-top: 3.4rem;
-    min-height: 85rem; }
-    .signup-section .left-signup h1 {
-      font-size: 6.2rem;
-      line-height: 7.4rem;
-      margin-bottom: 1rem; }
-    .signup-section .left-signup h2 {
-      font-size: 3.3rem;
-      line-height: 4rem;
-      font-weight: 300; }
-    .signup-section .left-signup h5 {
-      font-size: 2rem;
-      line-height: 2.4rem;
-      margin-bottom: 10.6rem; }
-  .signup-section .signup-success .icon-checked {
-    font-size: 9rem; }
-  .signup-section .signup-success h2 {
-    font-size: 3.3rem;
-    letter-spacing: -2.28px;
-    line-height: 4rem;
-    margin-top: 2.3rem;
-    margin-bottom: 23.7rem; }
-  .signup-section .signup-success a {
-    font-size: 3.2;
-    line-height: 3.2rem; }
-
-  .screens h5 {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    padding-top: 5.2rem; }
   .screens .screen-1 h2 {
     font-size: 3.5rem;
     line-height: 6.8rem;
@@ -1129,18 +887,171 @@ footer {
       padding-left: 1.4rem; }
   .screens .screen-2 {
     padding-top: 0; }
-    .screens .screen-2 .text-box + .text-box {
-      margin-top: 8rem; }
-    .screens .screen-2 .text-box h2:before {
-      height: 0.6rem;
-      width: 17.1rem;
-      left: -25rem; }
+    .screens .screen-2 h2 {
+      font-size: 4rem;
+      line-height: 4.8rem; }
     .screens .screen-2 p {
-      max-width: 38.2rem;
-      margin-top: 2.5rem; }
-    .screens .screen-2 img {
-      -webkit-transform: scale(2) translateY(9rem);
-      -ms-transform: scale(2) translateY(9rem);
-      transform: scale(2) translateY(9rem); } }
+      max-width: 37.9rem;
+      margin-top: 5rem;
+      font-size: 2.2rem;
+      letter-spacing: 0.5px;
+      line-height: 2.7rem; }
+
+  .twitter-payments {
+    padding-bottom: 27rem; }
+    .twitter-payments h2 {
+      width: 38rem;
+      line-height: 5.8rem; }
+    .twitter-payments p {
+      width: 38rem;
+      font-size: 1.5rem;
+      line-height: 2.2rem; }
+    .twitter-payments img {
+      bottom: -23rem;
+      left: -22%; }
+
+  .icons-section {
+    margin-bottom: 14.7rem; }
+    .icons-section .icons-box h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem; }
+    .icons-section .icons-box p {
+      font-size: 1.5rem;
+      line-height: 2.2rem; }
+
+  .online-payments {
+    margin-bottom: 8rem; }
+    .online-payments h2 {
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+      width: 43rem;
+      margin-bottom: 2rem; }
+    .online-payments p {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      width: 43rem; }
+    .online-payments h3 {
+      font-size: 2.1rem;
+      line-height: 2.5rem; }
+    .online-payments .emyapp-checkout {
+      width: 15.5rem; }
+
+  .business-solution {
+    margin-bottom: 19.5rem; }
+    .business-solution h2 {
+      max-width: 70rem;
+      font-size: 4rem;
+      letter-spacing: -0.4px;
+      line-height: 4rem; }
+
+  footer {
+    padding-top: 19.8rem;
+    padding-bottom: 2.6rem; }
+    footer h3 {
+      font-size: 5.2rem;
+      line-height: 6.2rem;
+      margin-bottom: 4.8rem; }
+    footer .store-icons {
+      margin-bottom: 10.9rem; }
+      footer .store-icons img {
+        width: 15.5rem; }
+    footer .social-icons {
+      margin-bottom: 4rem; }
+      footer .social-icons img {
+        height: 2.2rem; }
+    footer .privacy-terms {
+      margin-bottom: 4rem;
+      font-size: 2rem;
+      line-height: 2.4rem; }
+    footer p {
+      font-size: 1.8rem;
+      line-height: 2.2rem; } }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 3rem;
+    line-height: 4.18rem;
+    margin-bottom: 2.5rem; }
+
+  .twitter-payments {
+    padding-bottom: 36rem; }
+    .twitter-payments img {
+      bottom: -34rem; }
+
+  .pay-coffee h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: -0.35px;
+    line-height: 3.7rem; }
+  .pay-coffee p {
+    font-size: 1.8rem;
+    line-height: 2.2rem; } }
+/* Extra large devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+  .index-nav h5 {
+    font-size: 2rem;
+    line-height: 2.4rem; }
+  .index-nav .reserve-index-btn {
+    height: 3.6rem;
+    width: 13.5rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    padding: 0.9rem 3.6rem; }
+
+  .pay-coffee {
+    margin-bottom: 7rem; }
+    .pay-coffee img {
+      position: absolute;
+      width: 58.3vw;
+      left: -29%;
+      max-width: 86rem; }
+    .pay-coffee span {
+      height: 57rem;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+
+  .white-stripes {
+    background: -webkit-gradient(linear, right top, left top, color-stop(51%, #ffffff), color-stop(49%, #5B4AE2));
+    background: -webkit-linear-gradient(right, #ffffff 51%, #5B4AE2 49%);
+    background: -o-linear-gradient(right, #ffffff 51%, #5B4AE2 49%);
+    background: linear-gradient(to left, #ffffff 51%, #5B4AE2 49%); }
+    .white-stripes .bot-mask {
+      background-color: #ffffff;
+      height: 20vh;
+      width: 50vw;
+      position: absolute;
+      bottom: 0;
+      z-index: -1; }
+
+  .signup-section .left-signup {
+    background-image: url("../media/desktop/images/mobile_signup.png");
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+    padding-top: 3.4rem;
+    min-height: 85rem; }
+    .signup-section .left-signup h1 {
+      font-size: 6.2rem;
+      line-height: 7.4rem;
+      margin-bottom: 1rem; }
+    .signup-section .left-signup h2 {
+      font-size: 3.3rem;
+      line-height: 4rem;
+      font-weight: 300; }
+    .signup-section .left-signup h5 {
+      font-size: 2rem;
+      line-height: 2.4rem;
+      margin-bottom: 10.6rem; }
+  .signup-section .signup-success .icon-checked {
+    font-size: 9rem; }
+  .signup-section .signup-success h2 {
+    font-size: 3.3rem;
+    letter-spacing: -2.28px;
+    line-height: 4rem;
+    margin-top: 2.3rem;
+    margin-bottom: 23.7rem; }
+  .signup-section .signup-success a {
+    font-size: 3.2;
+    line-height: 3.2rem; } }
 
 /*# sourceMappingURL=style.css.map */

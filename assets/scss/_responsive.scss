@@ -4,17 +4,17 @@
     font-size: 3.6rem;
   }
 
-  .slider-section {
-    .screens {
-      .screen-2 {
-        .small-img {
-          img {
-            padding-top: 4rem;
-          }
-        }
-      }
-    }
-  }
+  // .slider-section {
+  //   .screens {
+  //     .screen-2 {
+  //       .small-img {
+  //         img {
+  //           padding-top: 4rem;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
   .twitter-payments {
     padding-top: 5.4rem;
@@ -82,8 +82,8 @@
   }
 
   footer {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-top: 13.2rem;
+    padding-bottom: 4rem;
 
     h3 {
       font-size: 4.2rem;
@@ -114,18 +114,18 @@
     }
 
     p {
-      font-size: 1.4rem;
-      line-height: 1.7rem;
+      font-size: 1.8rem;
+      line-height: 2.2rem;
     }
   }
 
-  .screens {
-    .screen-2 {
-      .img-divider-576 {
-        padding-top: 4rem;
-      }
-    }
-  }
+  // .screens {
+  //   .screen-2 {
+  //     .img-divider-576 {
+  //       padding-top: 4rem;
+  //     }
+  //   }
+  // }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -181,16 +181,20 @@
     }
   }
 
-  .slider-section {
+  // .slides-section {
+  //   padding-bottom: 40.2rem;
+  // }
+
+  // .slider-section {
     
 
-    .screens {
-      .screen-2 {
-        padding-top: 12.8rem;
-        padding-bottom: 40.2rem;
-      }
-    }
-  }
+  //   .screens {
+  //     .screen-2 {
+  //       padding-top: 12.8rem;
+  //       padding-bottom: 40.2rem;
+  //     }
+  //   }
+  // }
 
   .twitter-payments {
     img {
@@ -325,22 +329,23 @@
     }
 
     .screen-1 {
+      padding-bottom: 20rem;
       h2 {
         position: relative;
         font-size: 3rem;
         line-height: 3.6rem;
         margin-top: 12.8rem;
 
-        &:before {
-          content: "";
-          position: absolute;
-          height: 0.4rem;
-          width: 3.3rem;
-          background-color: $color-light;
-          bottom: 50%;
-          left: -10rem;
-          // left: -5.5rem;
-        }
+        // &:before {
+        //   content: "";
+        //   position: absolute;
+        //   height: 0.4rem;
+        //   width: 3.3rem;
+        //   background-color: $color-light;
+        //   bottom: 50%;
+        //   left: -10rem;
+        //   // left: -5.5rem;
+        // }
       }
 
       h3 {
@@ -408,16 +413,15 @@
 
     .screen-2 {
       padding-top: 0;
-      .text-box {
-        
 
-        & + .text-box {
-          margin-top: 4rem;
-        }
-      }
+      // .text-box {
+      //   & + .text-box {
+      //     margin-top: 4rem;
+      //   }
+      // }
 
       h2 {
-        max-width: 37.4rem;
+        max-width: 33.2rem;
         font-size: 3rem;
         font-weight: 300;
         line-height: 3.6rem;
@@ -428,49 +432,164 @@
       }
 
       p {
-        max-width: 35.6rem;
-        font-size: 1.6rem;
-        line-height: 2rem;
-        margin-top: 2rem;
+        max-width: 33.2rem;
+        margin-top: 4rem;
+        font-size: 2rem;	
+        letter-spacing: 0.45px;	
+        line-height: 2.5rem;
       }
 
-      img {
-        -webkit-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
-            -ms-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
-                transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
-      }
+      // img {
+      //   -webkit-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+      //       -ms-transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+      //           transform: scale(2.5) translateY(9rem) translateX(-4.5rem);
+      // }
     }
   }
 }
 
 // CUSTOM (desktops, 921px and up)
-@media (min-width: 921px) {
-  .screens {
-    .screen-2 {
-      img {
-        -webkit-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
-            -ms-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
-                transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
-      }
-    }
-  }
-}
+// @media (min-width: 921px) {
+//   .screens {
+//     .screen-2 {
+//       img {
+//         -webkit-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+//             -ms-transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+//                 transform: scale(3.5) translateY(6.4rem) translateX(-2.5rem);
+//       }
+//     }
+//   }
+// }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h2 {
     font-size: 5.6rem;
   }
 
-
   .screens {
+   
+    .screen-1 {
+      h2 {
+        font-size: 3.5rem;
+        line-height: 6.8rem;
+        margin-top: 13.6rem;
+
+        &:before {
+          height: 0.6rem;
+          width: 17.1rem;
+          left: -25rem;
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-top: 1rem;
+      }
+
+      p {
+        font-size: 2.5rem;
+        letter-spacing: -0.34px;
+        margin-top: 14.6rem;
+      }
+
+      .yourhandle {
+        height: 13.3rem;
+        max-width: 88.3rem;
+        margin-top: 12.5rem;
+
+        label {
+          font-size: 6.8rem;
+          font-weight: 500;
+          line-height: 13.3rem;
+          padding-left: 4.8rem;
+
+          &:after {
+            content: "";
+            position: absolute;
+            top: 25%;
+            right: -2.6rem;
+            height: 7.4rem;
+            width: 0.1rem;
+          }
+        }
+
+        input {
+          margin-left: 5.5rem;
+          width: 65%;
+          font-size: 9rem;
+          line-height: 13.3rem;
+          letter-spacing: -6.21px;
+          font-weight: 300;
+        }
+      }
+
+      #reserve-btn {
+        right: -5rem;
+        top: 14%;
+        height: 5.9rem;
+        width: 19.4rem;
+        font-size: 2.2rem;
+        line-height: 5.9rem;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+        border: 1.9rem solid $color-back-dark;
+        border-radius: 5.4rem;
+
+        i {
+          font-size: 1.6rem;
+          padding-left: 1.4rem;
+        }
+      }
+    }
+
     .screen-2 {
+      padding-top: 0;
+
+      // .text-box {
+      //   & + .text-box {
+      //     margin-top: 8rem;
+      //   }
+
+      //   h2 {
+      //     &:before {
+      //       height: 0.6rem;
+      //       width: 17.1rem;
+      //       left: -25rem;
+      //     }
+      //   }
+      // }
+      h2 {
+        font-size: 4rem;	
+        line-height: 4.8rem;
+      }
+
+      p {
+        max-width: 37.9rem;
+        margin-top: 5rem;
+        font-size: 2.2rem;	
+        letter-spacing: 0.5px;	
+        line-height: 2.7rem;
+      }
+
       img {
-        -webkit-transform: scale(2) translateY(9rem);
-            -ms-transform: scale(2) translateY(9rem);
-                transform: scale(2) translateY(9rem);
+        // -webkit-transform: scale(2) translateY(9rem);
+        //     -ms-transform: scale(2) translateY(9rem);
+        //         transform: scale(2) translateY(9rem);
       }
     }
   }
+
+
+  // .screens {
+  //   .screen-2 {
+  //     img {
+  //       -webkit-transform: scale(2) translateY(9rem);
+  //           -ms-transform: scale(2) translateY(9rem);
+  //               transform: scale(2) translateY(9rem);
+  //     }
+  //   }
+  // }
 
   .twitter-payments {
     padding-bottom: 27rem;
@@ -546,7 +665,7 @@
   }
 
   footer {
-    padding-top: 9.4rem;
+    padding-top: 19.8rem;
     padding-bottom: 2.6rem;
 
     h3 {
@@ -631,16 +750,21 @@
       padding: 0.9rem 3.6rem;
     }
   }
-  .slider-section {
+
+  // .slides-section {
+  //   padding-bottom: 31.9rem;
+  // }
+
+  // .slider-section {
     
-    .screens {
-      .screen-2 {
-        padding-top: 19.7rem;
-        padding-bottom: 31.9rem;
-        height: auto; 
-      }
-    }
-  }
+  //   .screens {
+  //     .screen-2 {
+  //       padding-top: 19.7rem;
+  //       padding-bottom: 31.9rem;
+  //       height: auto; 
+  //     }
+  //   }
+  // }
 
   .pay-coffee {
     margin-bottom: 7rem;
@@ -740,115 +864,5 @@
     }
   }
 
-  .screens {
-    h5 {
-      font-size: 2rem;
-      line-height: 2.4rem;
-      padding-top: 5.2rem;
-    }
-
-    .screen-1 {
-      h2 {
-        font-size: 3.5rem;
-        line-height: 6.8rem;
-        margin-top: 13.6rem;
-
-        &:before {
-          height: 0.6rem;
-          width: 17.1rem;
-          left: -25rem;
-        }
-      }
-
-      h3 {
-        font-size: 2rem;
-        line-height: 2.4rem;
-        margin-top: 1rem;
-      }
-
-      p {
-        font-size: 2.5rem;
-        letter-spacing: -0.34px;
-        margin-top: 14.6rem;
-      }
-
-      .yourhandle {
-        height: 13.3rem;
-        max-width: 88.3rem;
-        margin-top: 12.5rem;
-
-        label {
-          font-size: 6.8rem;
-          font-weight: 500;
-          line-height: 13.3rem;
-          padding-left: 4.8rem;
-
-          &:after {
-            content: "";
-            position: absolute;
-            top: 25%;
-            right: -2.6rem;
-            height: 7.4rem;
-            width: 0.1rem;
-          }
-        }
-
-        input {
-          margin-left: 5.5rem;
-          width: 65%;
-          font-size: 9rem;
-          line-height: 13.3rem;
-          letter-spacing: -6.21px;
-          font-weight: 300;
-        }
-      }
-
-      #reserve-btn {
-        right: -5rem;
-        top: 14%;
-        height: 5.9rem;
-        width: 19.4rem;
-        font-size: 2.2rem;
-        line-height: 5.9rem;
-        -webkit-box-sizing: content-box;
-                box-sizing: content-box;
-        border: 1.9rem solid $color-back-dark;
-        border-radius: 5.4rem;
-
-        i {
-          font-size: 1.6rem;
-          padding-left: 1.4rem;
-        }
-      }
-    }
-
-    .screen-2 {
-      padding-top: 0;
-
-      .text-box {
-        & + .text-box {
-          margin-top: 8rem;
-        }
-
-        h2 {
-          &:before {
-            height: 0.6rem;
-            width: 17.1rem;
-            left: -25rem;
-          }
-        }
-      }
-
-      p {
-        max-width: 38.2rem;
-        margin-top: 2.5rem;
-      }
-
-      img {
-        -webkit-transform: scale(2) translateY(9rem);
-            -ms-transform: scale(2) translateY(9rem);
-                transform: scale(2) translateY(9rem);
-      }
-    }
-  }
+  
 }
