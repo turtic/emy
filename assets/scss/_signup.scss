@@ -176,9 +176,9 @@
       @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         /*IE10+-specific CSS here*/
         .floating-label {
-            display: none;
+          display: none;
         }
-     }
+      }
 
       input:placeholder-shown ~ label {
         opacity: 1;

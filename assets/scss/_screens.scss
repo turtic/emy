@@ -7,40 +7,6 @@
 }
 
 .screens {
-
-  // @-webkit-keyframes fade-in-screen {
-  //   0% {
-  //     opacity: 0;
-  //   }
-
-  //   100% {
-  //     opacity: 1;
-  //   }
-  // }
-  // @keyframes fade-in-screen {
-  //   0% {
-  //     opacity: 0;
-  //   }
-
-  //   100% {
-  //     opacity: 1;
-  //   }
-  // }
-
-  // .fade-in-screen {
-  //   -webkit-animation: fade-in 0.4s linear;
-  //     animation: fade-in 0.4s linear;
-  // }
-
-
-  // h5 {
-  //   color: $color-text-light;
-  //   font-size: 1.4rem;
-  //   font-weight: 500;
-  //   line-height: 1.7rem;
-  //   padding-top: 4rem;
-  // }
-
   .screen-1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -175,55 +141,12 @@
   }
 
   .screen-2 {
-    // @-webkit-keyframes fade-in {
-    //   0% {
-    //     opacity: 0.2;
-    //   }
-
-    //   100% {
-    //     opacity: 1;
-    //   }
-    // }
-    // @keyframes fade-in {
-    //   0% {
-    //     opacity: 0.2;
-    //   }
-
-    //   100% {
-    //     opacity: 1;
-    //   }
-    // }
-
-    // @keyframes fade-in-img {
-    //   0% {
-    //     opacity: 0;
-    //   }
-
-    //   100% {
-    //     opacity: 1;
-    //   }
-    // }
-
     color: $color-text-light;
     -ms-flex-line-pack: center;
     align-content: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    // min-height: 100vh;
-
-    // .animate-me {
-    //   -webkit-animation: fade-in 1s ease-in;
-    //   animation: fade-in 1s ease-in;
-    // }
-
-    // .text-box {
-    //   opacity: 0.2;
-
-    //   & + .text-box {
-    //     margin-top: 3rem;
-    //   }
-    // }
 
     h2 {
       font-size: 2rem;
@@ -241,35 +164,6 @@
     img {
       width: 100%;
       height: auto;
-      // -webkit-transform: scale(1.5) translateY(7rem);
-      // -ms-transform: scale(1.5) translateY(7rem);
-      // transform: scale(1.5) translateY(7rem);
     }
-
-    // .animate-me-img {
-    //   -webkit-animation: fade-in-img 2s ease-in;
-    //   animation: fade-in-img 2s ease-in;
-    // }
-
-    // .img-divider {
-    //   padding-top: 4rem;
-    // }
-
-    // .box-active {
-    //   opacity: 1 ;
-  
-    //   h2 {
-    //     position: relative;
-    //     &:before {
-    //       content: "";
-    //       position: absolute;
-    //       height: 0.4rem;
-    //       width: 3.3rem;
-    //       background-color: $color-light;
-    //       bottom: 50%;
-    //       left: -10.5rem;
-    //     }
-    //   }
-    // }
   }
 }
