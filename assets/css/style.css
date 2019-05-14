@@ -473,6 +473,7 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-bottom: 5rem;
   color: #ffffff;
   padding-top: 4rem; }
   .signup-section .welcome img {
