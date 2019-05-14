@@ -83,6 +83,8 @@
           position: absolute;
           padding: 2.5rem 5.6rem 4.2rem 2rem;
           top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 
           p:nth-child(2) {
@@ -110,6 +112,8 @@
         h6 {
           position: absolute;
           top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           left: 5.5rem;
         }
@@ -187,6 +191,13 @@
       $color-text-light 60%,
       $color-back-dark 40%
     );
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(60%, $color-text-light),
+      color-stop(40%, $color-back-dark)
+    );
     background: linear-gradient(
       to left,
       $color-text-light 60%,
@@ -195,6 +206,9 @@
   }
 
   .index-nav {
+    img {
+      width: 6.5rem;
+    }
     .reserve-index-btn {
       height: 2.9rem;
       width: 9.7rem;
@@ -336,6 +350,10 @@
   }
 
   .screens {
+    & + .screens {
+      margin-top: -7rem;
+    }
+
     h5 {
       font-size: 1.8rem;
       line-height: 2.2rem;
@@ -435,6 +453,10 @@
         letter-spacing: 0.45px;
         line-height: 2.5rem;
       }
+
+      .text-box {
+        margin-top: 15%;
+      }
     }
   }
 }
@@ -446,6 +468,17 @@
   }
 
   .screens {
+    & + .screens {
+      margin-top: -16rem;
+    }
+
+    &:nth-child(2) {
+      img {
+        -webkit-transform: translateX(-10rem);
+        -ms-transform: translateX(-10rem);
+        transform: translateX(-10rem);
+      }
+    }
     .screen-1 {
       h2 {
         font-size: 3.5rem;
@@ -473,7 +506,6 @@
 
       .yourhandle {
         height: 13.3rem;
-        // max-width: 88.3rem;
         max-width: 100%;
         margin-top: 12.5rem;
 
@@ -526,12 +558,13 @@
       padding-top: 0;
 
       h2 {
+        max-width: 46.5rem;
         font-size: 4rem;
         line-height: 4.8rem;
       }
 
       p {
-        max-width: 37.9rem;
+        max-width: 46.5rem;
         margin-top: 5rem;
         font-size: 2.2rem;
         letter-spacing: 0.5px;
@@ -539,16 +572,6 @@
       }
     }
   }
-
-  // .screens {
-  //   .screen-2 {
-  //     img {
-  //       -webkit-transform: scale(2) translateY(9rem);
-  //           -ms-transform: scale(2) translateY(9rem);
-  //               transform: scale(2) translateY(9rem);
-  //     }
-  //   }
-  // }
 
   .twitter-payments {
     padding-bottom: 27rem;
@@ -638,6 +661,8 @@
           position: absolute;
           padding: 3.5rem 3rem 4rem 5.5rem;
           top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 
           p:nth-child(2) {
@@ -660,6 +685,8 @@
         h6 {
           position: absolute;
           top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           left: 5.5rem;
         }
@@ -740,6 +767,9 @@
 /* Extra large devices (large desktops, 1440px and up) */
 @media (min-width: 1440px) {
   .index-nav {
+    img {
+      width: 6rem;
+    }
     h5 {
       font-size: 2rem;
       line-height: 2.4rem;
@@ -789,6 +819,13 @@
       $color-text-light 51%,
       $color-back-dark 49%
     );
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(51%, $color-text-light),
+      color-stop(49%, $color-back-dark)
+    );
     background: linear-gradient(
       to left,
       $color-text-light 51%,
@@ -826,7 +863,7 @@
       }
 
       img:nth-child(1) {
-        margin-bottom: 10.6rem;
+        margin-bottom: 10.2rem;
       }
     }
 

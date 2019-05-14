@@ -10,6 +10,11 @@
   align-items: center;
   padding-top: 4rem;
 
+  img {
+    width: 3.8rem;
+    height: auto;
+  }
+
   .reserve-index-btn {
     height: 2.5rem;
     width: 9.5rem;
@@ -206,7 +211,7 @@
       display: block;
     }
   }
- 
+
   .accordion {
     color: $color-text-dark;
 
@@ -218,13 +223,14 @@
 
     .accord-img-wrap {
       position: relative;
-      
 
       .accord-text {
         background-color: $color-light;
         position: absolute;
         padding: 1.2rem 2.1rem 1.3rem 2.1rem;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
 
         p:nth-child(2) {
@@ -238,17 +244,15 @@
           display: none;
         }
       }
-
     }
 
-    .accord-text-phone{
+    .accord-text-phone {
       display: block;
       font-size: 1.2rem;
       width: 28.4rem;
       padding-left: 2.2rem;
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
-
     }
 
     .accord-close {
@@ -259,6 +263,8 @@
       h6 {
         position: absolute;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         left: 5.5rem;
       }

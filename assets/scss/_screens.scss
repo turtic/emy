@@ -7,6 +7,9 @@
 }
 
 .screens {
+  & + .screens {
+    margin-top: -5rem;
+  }
   .screen-1 {
     display: -webkit-box;
     display: -ms-flexbox;

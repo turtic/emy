@@ -67,6 +67,9 @@ a {
   -ms-flex-align: center;
   align-items: center;
   padding-top: 4rem; }
+  .index-nav img {
+    width: 3.8rem;
+    height: auto; }
   .index-nav .reserve-index-btn {
     height: 2.5rem;
     width: 9.5rem;
@@ -224,6 +227,8 @@ a {
         position: absolute;
         padding: 1.2rem 2.1rem 1.3rem 2.1rem;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
         .business-solution .accordion .accord-img-wrap .accord-text p:nth-child(2) {
           width: 18.2rem;
@@ -247,6 +252,8 @@ a {
       .business-solution .accordion .accord-close h6 {
         position: absolute;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         left: 5.5rem; }
 
@@ -326,7 +333,11 @@ footer {
     font-weight: bold;
     line-height: 2.2rem; }
   .signup-section .left-signup img:nth-child(1) {
-    align-self: start; }
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    width: 6.5rem;
+    margin-bottom: 3.8rem; }
 .signup-section .right-signup {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -378,6 +389,7 @@ footer {
       border-color: #B9B9B9;
       padding-left: 40px;
       color: #2F2F41;
+      -webkit-box-shadow: none;
       box-shadow: none; }
       .signup-section .right-signup .input-box input::-webkit-input-placeholder {
         color: #B9B9B9; }
@@ -453,6 +465,45 @@ footer {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.6rem; }
+.signup-section .welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #ffffff;
+  padding-top: 4rem; }
+  .signup-section .welcome img {
+    width: 3.8rem;
+    height: auto;
+    margin-bottom: 11.4rem; }
+  .signup-section .welcome h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 6.1rem;
+    margin-bottom: 1rem; }
+  .signup-section .welcome h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    margin-bottom: 18rem; }
+  .signup-section .welcome a {
+    display: block;
+    width: 276px;
+    color: #fdfdfd;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    line-height: 2.6rem;
+    text-align: center;
+    border: 2px solid #fdfdfd;
+    border-radius: 4.5rem;
+    -webkit-box-shadow: 0 0 6px 0 rgba(142, 142, 142, 0.5);
+    box-shadow: 0 0 6px 0 rgba(142, 142, 142, 0.5); }
 
 .background-color-dark {
   background-color: #5B4AE2; }
@@ -460,6 +511,8 @@ footer {
 .full-screen {
   min-height: 100vh; }
 
+.screens + .screens {
+  margin-top: -5rem; }
 .screens .screen-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -643,6 +696,8 @@ footer {
         position: absolute;
         padding: 2.5rem 5.6rem 4.2rem 2rem;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
         .business-solution .accordion .accord-img-wrap .accord-text p:nth-child(2) {
           width: 31.2rem;
@@ -662,6 +717,8 @@ footer {
       .business-solution .accordion .accord-close h6 {
         position: absolute;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         left: 5.5rem; }
 
@@ -702,8 +759,11 @@ footer {
     background: -webkit-gradient(linear, right top, left top, color-stop(60%, #ffffff), color-stop(40%, #5B4AE2));
     background: -webkit-linear-gradient(right, #ffffff 60%, #5B4AE2 40%);
     background: -o-linear-gradient(right, #ffffff 60%, #5B4AE2 40%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(60%, #ffffff), color-stop(40%, #5B4AE2));
     background: linear-gradient(to left, #ffffff 60%, #5B4AE2 40%); }
 
+  .index-nav img {
+    width: 6.5rem; }
   .index-nav .reserve-index-btn {
     height: 2.9rem;
     width: 9.7rem;
@@ -796,6 +856,8 @@ footer {
         color: #5B4AE2;
         cursor: pointer; }
 
+  .screens + .screens {
+    margin-top: -7rem; }
   .screens h5 {
     font-size: 1.8rem;
     line-height: 2.2rem;
@@ -867,12 +929,20 @@ footer {
       margin-top: 4rem;
       font-size: 2rem;
       letter-spacing: 0.45px;
-      line-height: 2.5rem; } }
+      line-height: 2.5rem; }
+    .screens .screen-2 .text-box {
+      margin-top: 15%; } }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h2 {
     font-size: 5.6rem; }
 
+  .screens + .screens {
+    margin-top: -16rem; }
+  .screens:nth-child(2) img {
+    -webkit-transform: translateX(-10rem);
+    -ms-transform: translateX(-10rem);
+    transform: translateX(-10rem); }
   .screens .screen-1 h2 {
     font-size: 3.5rem;
     line-height: 6.8rem;
@@ -929,10 +999,11 @@ footer {
   .screens .screen-2 {
     padding-top: 0; }
     .screens .screen-2 h2 {
+      max-width: 46.5rem;
       font-size: 4rem;
       line-height: 4.8rem; }
     .screens .screen-2 p {
-      max-width: 37.9rem;
+      max-width: 46.5rem;
       margin-top: 5rem;
       font-size: 2.2rem;
       letter-spacing: 0.5px;
@@ -997,6 +1068,8 @@ footer {
           position: absolute;
           padding: 3.5rem 3rem 4rem 5.5rem;
           top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
           .business-solution .accordion .accord-img-wrap .accord-text p:nth-child(2) {
             width: 32rem;
@@ -1013,6 +1086,8 @@ footer {
         .business-solution .accordion .accord-close h6 {
           position: absolute;
           top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           left: 5.5rem; }
 
@@ -1060,6 +1135,8 @@ footer {
     line-height: 2.2rem; } }
 /* Extra large devices (large desktops, 1440px and up) */
 @media (min-width: 1440px) {
+  .index-nav img {
+    width: 6rem; }
   .index-nav h5 {
     font-size: 2rem;
     line-height: 2.4rem; }
@@ -1087,6 +1164,7 @@ footer {
     background: -webkit-gradient(linear, right top, left top, color-stop(51%, #ffffff), color-stop(49%, #5B4AE2));
     background: -webkit-linear-gradient(right, #ffffff 51%, #5B4AE2 49%);
     background: -o-linear-gradient(right, #ffffff 51%, #5B4AE2 49%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(51%, #ffffff), color-stop(49%, #5B4AE2));
     background: linear-gradient(to left, #ffffff 51%, #5B4AE2 49%); }
     .white-stripes .bot-mask {
       background-color: #ffffff;
@@ -1111,7 +1189,7 @@ footer {
       line-height: 4rem;
       font-weight: 300; }
     .signup-section .left-signup img:nth-child(1) {
-      margin-bottom: 10.6rem; }
+      margin-bottom: 10.2rem; }
   .signup-section .signup-success .icon-checked {
     font-size: 9rem; }
   .signup-section .signup-success h2 {
