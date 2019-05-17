@@ -224,6 +224,10 @@
     }
   }
 
+  .slides-section {
+    padding-bottom: 11rem;
+  }
+
   .twitter-payments {
     img {
       bottom: -7rem;
@@ -351,7 +355,8 @@
 
   .screens {
     & + .screens {
-      margin-top: -7rem;
+      // margin-top: -7rem;
+      margin-top: 7rem;
     }
 
     h5 {
@@ -435,10 +440,17 @@
     .screen-2 {
       padding-top: 0;
 
+      img {
+        transform: scale(1.4) translateY(4rem) translateX(-1rem);
+      }
+
+      .left-img {
+        transform: scale(1.4) translateY(4rem) translateX(1rem);
+      }
+
       h2 {
-        max-width: 33.2rem;
+        max-width: 29rem;
         font-size: 3rem;
-        font-weight: 300;
         line-height: 3.6rem;
 
         &:before {
@@ -455,7 +467,17 @@
       }
 
       .text-box {
-        margin-top: 15%;
+        margin-top: 4%;
+      }
+
+      .number-large {
+        font-size: 8rem;
+        line-height: 7.8rem;
+        margin-right: 2.6rem;
+        display: block;
+      }
+      .number-small {
+        display: none;
       }
     }
   }
@@ -469,7 +491,7 @@
 
   .screens {
     & + .screens {
-      margin-top: -16rem;
+      margin-top: 19rem;
     }
 
     &:nth-child(2) {
@@ -556,21 +578,38 @@
 
     .screen-2 {
       padding-top: 0;
+      img {
+        transform: scale(1.5) translateY(6.8rem) translateX(2rem);
+      }
+
+      .left-img {
+        transform: scale(1.5) translateY(6.8rem) translateX(-2rem);
+      }
 
       h2 {
-        max-width: 46.5rem;
+        max-width: 36.5rem;
         font-size: 4rem;
         line-height: 4.8rem;
       }
 
       p {
-        max-width: 46.5rem;
+        max-width: 35.1rem;
         margin-top: 5rem;
         font-size: 2.2rem;
         letter-spacing: 0.5px;
         line-height: 2.7rem;
       }
+      .number-large {
+        font-size: 13rem;
+        line-height: 9.9rem;
+        margin-right: 3.6rem;
+        // display: none;
+      }
     }
+  }
+
+  .slides-section {
+    padding-bottom: 18rem;
   }
 
   .twitter-payments {

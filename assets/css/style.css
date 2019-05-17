@@ -628,9 +628,11 @@ footer {
   -ms-flex-pack: center;
   justify-content: center; }
   .screens .screen-2 h2 {
+    display: flex;
     font-size: 2rem;
-    font-weight: 300;
-    line-height: 2.4rem; }
+    font-weight: bold;
+    line-height: 2.4rem;
+    max-width: 31rem; }
   .screens .screen-2 p {
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -639,6 +641,17 @@ footer {
   .screens .screen-2 img {
     width: 100%;
     height: auto; }
+  .screens .screen-2 .number-small {
+    font-size: 5.5rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    margin-right: 2.7rem; }
+  .screens .screen-2 .number-large {
+    font-size: 10rem;
+    font-weight: 400;
+    line-height: 9.8rem;
+    margin-right: 5rem;
+    display: none; }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -776,6 +789,9 @@ footer {
       color: #2F2F41;
       background-color: #ffffff; }
 
+  .slides-section {
+    padding-bottom: 11rem; }
+
   .twitter-payments img {
     bottom: -7rem; }
 
@@ -858,7 +874,7 @@ footer {
         cursor: pointer; }
 
   .screens + .screens {
-    margin-top: -7rem; }
+    margin-top: 7rem; }
   .screens h5 {
     font-size: 1.8rem;
     line-height: 2.2rem;
@@ -918,10 +934,13 @@ footer {
         padding-left: 0.7rem; }
   .screens .screen-2 {
     padding-top: 0; }
+    .screens .screen-2 img {
+      transform: scale(1.4) translateY(4rem) translateX(-1rem); }
+    .screens .screen-2 .left-img {
+      transform: scale(1.4) translateY(4rem) translateX(1rem); }
     .screens .screen-2 h2 {
-      max-width: 33.2rem;
+      max-width: 29rem;
       font-size: 3rem;
-      font-weight: 300;
       line-height: 3.6rem; }
       .screens .screen-2 h2:before {
         left: -5.5rem; }
@@ -932,14 +951,21 @@ footer {
       letter-spacing: 0.45px;
       line-height: 2.5rem; }
     .screens .screen-2 .text-box {
-      margin-top: 15%; } }
+      margin-top: 4%; }
+    .screens .screen-2 .number-large {
+      font-size: 8rem;
+      line-height: 7.8rem;
+      margin-right: 2.6rem;
+      display: block; }
+    .screens .screen-2 .number-small {
+      display: none; } }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h2 {
     font-size: 5.6rem; }
 
   .screens + .screens {
-    margin-top: -16rem; }
+    margin-top: 19rem; }
   .screens:nth-child(2) img {
     -webkit-transform: translateX(-10rem);
     -ms-transform: translateX(-10rem);
@@ -999,16 +1025,27 @@ footer {
       padding-left: 1.4rem; }
   .screens .screen-2 {
     padding-top: 0; }
+    .screens .screen-2 img {
+      transform: scale(1.5) translateY(6.8rem) translateX(2rem); }
+    .screens .screen-2 .left-img {
+      transform: scale(1.5) translateY(6.8rem) translateX(-2rem); }
     .screens .screen-2 h2 {
-      max-width: 46.5rem;
+      max-width: 36.5rem;
       font-size: 4rem;
       line-height: 4.8rem; }
     .screens .screen-2 p {
-      max-width: 46.5rem;
+      max-width: 35.1rem;
       margin-top: 5rem;
       font-size: 2.2rem;
       letter-spacing: 0.5px;
       line-height: 2.7rem; }
+    .screens .screen-2 .number-large {
+      font-size: 13rem;
+      line-height: 9.9rem;
+      margin-right: 3.6rem; }
+
+  .slides-section {
+    padding-bottom: 18rem; }
 
   .twitter-payments {
     padding-bottom: 27rem; }

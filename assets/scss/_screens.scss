@@ -152,9 +152,11 @@
     justify-content: center;
 
     h2 {
+      display: flex;
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: bold;
       line-height: 2.4rem;
+      max-width: 31rem;
     }
 
     p {
@@ -167,6 +169,21 @@
     img {
       width: 100%;
       height: auto;
+    }
+
+    .number-small {
+      font-size: 5.5rem;
+      font-weight: 400;
+      line-height: 4.8rem;
+      margin-right: 2.7rem;
+    }
+
+    .number-large {
+      font-size: 10rem;
+      font-weight: 400;
+      line-height: 9.8rem;
+      margin-right: 5rem;
+      display: none;
     }
   }
 }
