@@ -225,7 +225,9 @@
   }
 
   .slides-section {
+    padding-top: 4rem;
     padding-bottom: 11rem;
+    overflow: hidden;
   }
 
   .twitter-payments {
@@ -366,7 +368,7 @@
     }
 
     .screen-1 {
-      padding-bottom: 20rem;
+      padding-bottom: 16rem;
       h2 {
         position: relative;
         font-size: 3rem;

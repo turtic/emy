@@ -790,7 +790,9 @@ footer {
       background-color: #ffffff; }
 
   .slides-section {
-    padding-bottom: 11rem; }
+    padding-top: 4rem;
+    padding-bottom: 11rem;
+    overflow: hidden; }
 
   .twitter-payments img {
     bottom: -7rem; }
@@ -880,7 +882,7 @@ footer {
     line-height: 2.2rem;
     padding-top: 5.2rem; }
   .screens .screen-1 {
-    padding-bottom: 20rem; }
+    padding-bottom: 16rem; }
     .screens .screen-1 h2 {
       position: relative;
       font-size: 3rem;
