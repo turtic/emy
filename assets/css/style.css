@@ -312,7 +312,11 @@ footer {
   font-size: 2.5rem;
   letter-spacing: -0.34px;
   line-height: 3rem;
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: left; }
+.signup-section .mobile-logo {
+  position: absolute;
+  top: 3rem; }
 .signup-section .left-signup {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -349,10 +353,10 @@ footer {
   text-align: center;
   min-height: 100vh;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  -ms-flex-pack: center; }
   .signup-section .right-signup h2 {
-    margin-bottom: 4.9rem; }
+    margin-top: 9.5rem;
+    margin-bottom: 3.9rem; }
   .signup-section .right-signup a {
     color: #6043EB; }
   .signup-section .right-signup .signup-terms {
@@ -841,8 +845,8 @@ footer {
     letter-spacing: -0.3px;
     line-height: 3rem; }
 
-  .signup-section .right-signup h2 {
-    text-align: left; }
+  .signup-section .right-signup {
+    justify-content: center; }
   .signup-section .signup-success {
     display: -webkit-box;
     display: -ms-flexbox;
